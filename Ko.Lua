@@ -101,7 +101,31 @@ local Button = MainTab:CreateButton({
 local Button = MainTab:CreateButton({
     Name = "============= AUTO CAPSULE =============",
     Callback = function(v)
-        local args = {[1]="EventClover",[2]="gems10"}
+        local args = {[1]="EventClover",[2]="gems"}
+        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
+        wait(3)
+        local args = {[1]="EventClover",[2]="gems"}
+        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
+        wait(3)
+        local args = {[1]="EventClover",[2]="gems"}
+        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
+        wait(3)
+        local args = {[1]="EventClover",[2]="gems"}
+        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
+        wait(3)
+        local args = {[1]="EventClover",[2]="gems"}
+        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
+        wait(3)
+        local args = {[1]="EventClover",[2]="gems"}
+        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
+        wait(3)
+        local args = {[1]="EventClover",[2]="gems"}
+        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
+        wait(3)
+        local args = {[1]="EventClover",[2]="gems"}
+        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
+        wait(3)
+        local args = {[1]="EventClover",[2]="gems"}
         game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
         wait(3)
         local args = {[1] = "capsule_summer",[2] = "event",[3] = "event_shop",[4] = "10"}
@@ -142,7 +166,7 @@ local Toggle = MainTab:CreateToggle({
     CurrentValue = false,
     Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
     Callback = function(AutoBuyCapsule)
-        local args = {[1]="EventClover",[2]="gems1"}
+        local args = {[1]="EventClover",[2]="gems"}
         game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
         wait(3)
         local args = {[1]="EventClover",[2]="gems1"}
