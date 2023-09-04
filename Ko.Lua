@@ -56,7 +56,7 @@ local Button = MainTab:CreateButton({
         local args = {[1]="OVERLORD"}
         game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
         wait()
-        local args = {[1]="NEWCODE0819"}
+        local args = {[1]="Breakable"}
         game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
         wait()
         local args = {[1]="EventClover",[2]="gems10"}
