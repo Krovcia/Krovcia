@@ -1,178 +1,81 @@
-getgenv().SecureMode = true
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
- 
-local MainWindow = Rayfield:CreateWindow({
-    Name = "ALVINO",
-    LoadingTitle = "Sabar...",
-    LoadingSubtitle = "by KONTOL",
-    ConfigurationSaving = {
-       Enabled = false,
-       FolderName = nil, -- Create a custom folder for your hub/game
-       FileName = "McDonalds Hub"
-    }
- })
+repeat task.wait() until game:IsLoaded()
+    
+    local Player = game.Players.LocalPlayer
+    local lib = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
+    local subs = lib.subs 
+    local libclose = subs.Wait
+    
+    local window = lib:CreateWindow({
+        Name = "Novaline | Novaz#0001",
+        Themeable = {
+            Info = {"Kalas A Skid"},
+            Credit = false, 
+            Background = "",
+            Visible = true
+        }
+    })
+    
+    local main1 = window:CreateTab({
+        Name = "Main"
+    })
+    
+    local Section1 = main1:CreateSection({
+        Name = "ROLLBACK"
+    })
+    
+    local Section2 = main1:CreateSection({
+        Name = "USELESS STUFF"
+    })
+    
+    local Persistence = Section2:AddPersistence({
+        Name = "Settings",
+        Flag = "Pers"
+    })
+    
+    Section1:AddToggle({
+        Name = "Spin",
+        Value = false,
+        Flag = "SPIN",
+        Callback = function(state)
+            SPIN = state 
+            Persistence:SaveFile("SAVE")
+            while SPIN and libclose() do 
+                task.spawn(function()
+                    local MAIN_DATA = Player:WaitForChild("MAIN_DATA")
+                    local Gems = MAIN_DATA:WaitForChild("Gems")
+                    local Slots = MAIN_DATA:WaitForChild("Slots")
+                    local Slot = MAIN_DATA:WaitForChild("Slot")
+                    if Slots[Slot.Value] and FRUITS and (not table.find(FRUITS, Slots[Slot.Value].Value)) then 
+                        if MAIN_DATA and Gems and Gems.Value >= 80 then 
+                            game:GetService("ReplicatedStorage").Replicator:InvokeServer("FruitsHandler", "Spin", {["Type"] = "Fast"})
+                        else
+                            game:GetService("ReplicatedStorage").Replicator:InvokeServer("Core", "UpdateSettings", {["\255"] = true, ["\255"] = true, ["\255"] = true, ["\255"] = true, ["\255"] = true})
+                            game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
+                        end 
+                    end 
+                end)
+                task.wait()
+            end 
+        end 
+    })
+    
+    Section1:AddDropdown({
+        Name = "Select Fruits..",
+        List = {"Magnet", "Quake", "Gravity", "Phoenix", "TSRubber", "Dragon", "Dough", "Lightning", "Leopard", "Ope", "Venom", "Nika"},
+        Multi = true,
+        Flag = "SELECTEDFRUITS",
+        Callback = function(selected)
+            Persistence:SaveFile("SAVE")
+            FRUITS = selected
+        end 
+    })
+    
+    Persistence:LoadFile("SAVE")
 
-local MainTab = MainWindow:CreateTab("PELER", 7053923059) -- Title, Image
-
-local Button = MainTab:CreateButton({
-    Name = "============= AUTO ALL =============",
-    Callback = function(v)
-        local args = {[1]="SUMMER2023"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="ANNIVERSARY"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="BILLION"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="noclypso"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="SubToBlamspot"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="Cxrsed"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="subtomaokuma"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="FictioNTheFirst"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="SubToKelvingts"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="TOADBOIGAMING"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="KingLuffy"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="subtosnowrbx"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="OVERLORD"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="Unbreakable"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="EventClover",[2]="gems10"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="gems10"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="gems10"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="ticket"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="ticket"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="ticket"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="ticket"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="ticket"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="ticket"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="ticket"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="ticket"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="ticket"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-    end,
-})
-
-local Button = MainTab:CreateButton({
-    Name = "============= AUTO CAPSULE =============",
-    Callback = function(v)
-        local args = {[1]="EventClover",[2]="gems"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="gems"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="gems"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="gems"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="gems"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="gems"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="gems"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="gems"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="gems"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1] = "capsule_summer",[2] = "event",[3] = "event_shop",[4] = "10"}
-        game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_item_generic:InvokeServer(unpack(args))
-        wait()
-        local args = {[1] = "capsule_summer",[2] = "event",[3] = "event_shop",[4] = "10"}
-        game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_item_generic:InvokeServer(unpack(args))
-        wait()
-        local args = {[1] = "capsule_summer",[2] = "event",[3] = "event_shop",[4] = "1"}
-        game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_item_generic:InvokeServer(unpack(args))
-        wait()
-        local args = {[1] = "capsule_summer",[2] = "event",[3] = "event_shop",[4] = "1"}
-        game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_item_generic:InvokeServer(unpack(args))
-        wait()
-        local args = {[1] = "capsule_summer",[2] = "event",[3] = "event_shop",[4] = "1"}
-        game:GetService("ReplicatedStorage").endpoints.client_to_server.buy_item_generic:InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="capsule_summer",[2] = { ["use10"] = true }}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("use_item"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="capsule_summer",[2] = { ["use10"] = true }}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("use_item"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="capsule_summer",[2] = { ["use10"] = false }}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("use_item"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="capsule_summer",[2] = { ["use10"] = false }}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("use_item"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="capsule_summer",[2] = { ["use10"] = false }}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("use_item"):InvokeServer(unpack(args))
-        wait()
-    end,
-})
-
-local Toggle = MainTab:CreateToggle({
-    Name = "1Time",
-    CurrentValue = false,
-    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
-    Callback = function(AutoBuyCapsule)
-        local args = {[1]="EventClover",[2]="gems"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-        local args = {[1]="EventClover",[2]="gems1"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("buy_from_banner"):InvokeServer(unpack(args))
-        wait(3)
-          
-        
-    end,
-})
+    local queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
+    Player.OnTeleport:Connect(function(state)
+        print(state, queueteleport)
+        if state == Enum.TeleportState.InProgress and queueteleport then 
+            queueteleport("repeat task.wait() until game:IsLoaded() loadstring(game:HttpGet('https://raw.githubusercontent.com/Novaz5792/X/main/FruitBattlegroundsRollback'))()")
+        end 
+    end)
