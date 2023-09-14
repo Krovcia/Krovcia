@@ -46,8 +46,8 @@ repeat task.wait() until game:IsLoaded()
                     local Slots = MAIN_DATA:WaitForChild("Slots")
                     local Slot = MAIN_DATA:WaitForChild("Slot")
                     if Slots[Slot.Value] and FRUITS and (not table.find(FRUITS, Slots[Slot.Value].Value)) then 
-                        if MAIN_DATA and Gems and Gems.Value >= 80 then 
-                            game:GetService("ReplicatedStorage").Replicator:InvokeServer("FruitsHandler", "Spin", {["Type"] = "Fast"})
+                        if MAIN_DATA and Gems and Gems.Value >= 1 then 
+                            game:GetService("ReplicatedStorage").Replicator:InvokeServer("FruitsHandler", "Spin", {["Type"] = "Normal"})
                         else
                             game:GetService("ReplicatedStorage").Replicator:InvokeServer("Core", "UpdateSettings", {["\255"] = true, ["\255"] = true, ["\255"] = true, ["\255"] = true, ["\255"] = true})
                             game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
