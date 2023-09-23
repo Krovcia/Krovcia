@@ -73,8 +73,7 @@ wait()
                         if MAIN_DATA and Gems and Gems.Value >= -1 then 
                             game:GetService("ReplicatedStorage").Replicator:InvokeServer("FruitsHandler", "Spin", {["Type"] = "Normal"})
                         else
-                            game:GetService("ReplicatedStorage").Replicator:InvokeServer("Core", "UpdateSettings", {["\255"] = true, ["\255"] = true, ["\255"] = true, ["\255"] = true, ["\255"] = true})
-                            game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
+                            print ("rungkad")
                         end 
                     end 
                 end)
@@ -100,6 +99,6 @@ wait()
     Player.OnTeleport:Connect(function(state)
         print(state, queueteleport)
         if state == Enum.TeleportState.InProgress and queueteleport then 
-            queueteleport("repeat task.wait() until game:IsLoaded() loadstring(game:HttpGet('https://raw.githubusercontent.com/Novaz5792/X/main/FruitBattlegroundsRollback'))()")
+            queueteleport("repeat task.wait() until game:IsLoaded() loadstring(game:HttpGet('https://raw.githubusercontent.com/Krovcia/Krovcia/main/Ko.Lua'))()")
         end 
     end)
