@@ -1,6 +1,6 @@
 wait (10)    
 local args = {[1]="MORIOH"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
         wait()
         local args = {[1]="HOLYGRAIL"}
         game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
