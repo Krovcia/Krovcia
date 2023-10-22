@@ -14,16 +14,24 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "OBS HAKI 1-2",
+   Name = "OBS HAKI 1",
    Callback = function()
 local args = {
 [1] = workspace:WaitForChild("Npc_Workspace"):WaitForChild("ObsHaki"):WaitForChild("1") }
 game:GetService("ReplicatedStorage"):WaitForChild("Replication"):WaitForChild("ClientEvents"):WaitForChild("ObsHaki"):InvokeServer(unpack(args))
-wait()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "OBS HAKI 1",
+   Callback = function()
 local args = {
 [1] = workspace:WaitForChild("Npc_Workspace"):WaitForChild("ObsHaki"):WaitForChild("2") }
 game:GetService("ReplicatedStorage"):WaitForChild("Replication"):WaitForChild("ClientEvents"):WaitForChild("ObsHaki"):InvokeServer(unpack(args))
-wait()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "OBS HAKI 1",
+   Callback = function()
 local args = {
 [1] = workspace:WaitForChild("Npc_Workspace"):WaitForChild("ObsHaki"):WaitForChild("3") }
 game:GetService("ReplicatedStorage"):WaitForChild("Replication"):WaitForChild("ClientEvents"):WaitForChild("ObsHaki"):InvokeServer(unpack(args))
