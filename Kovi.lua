@@ -6016,7 +6016,7 @@ function FPSBOOST()
                 Destroy = false
             },
             Other = {
-                ["FPS Cap"] = true, -- Set this true to uncap FPS
+                ["FPS Cap"] = false, -- Set this true to uncap FPS
                 ["No Camera Effects"] = true,
                 ["No Clothes"] = true,
                 ["Low Water Graphics"] = true,
