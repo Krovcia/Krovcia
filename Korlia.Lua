@@ -14,15 +14,14 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "OBS HAKI 1",
+   Name = "LEE",
    Callback = function()
-        local args = {[1]="HAPPYHALLOWEEN"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="HALLOWEENUPDSOON"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
-        wait()
-        local args = {[1]="HAPPYHALLOWEEN"}
-        game:GetService("ReplicatedStorage"):WaitForChild("endpoints"):WaitForChild("client_to_server"):WaitForChild("redeem_code"):InvokeServer(unpack(args))
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -9616, 38, 1041, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "PUNK",
+   Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -9330, 108, -5203, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
