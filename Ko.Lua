@@ -1,5 +1,11 @@
 repeat task.wait() until game:IsLoaded()
 
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="LUVYALL"}}
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+wait(1)
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="510KWOWW"}}
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+wait(1)
 local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="500KVIIBE!"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait(1)
