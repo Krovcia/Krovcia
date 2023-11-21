@@ -25,7 +25,7 @@ wait(2)
 local args={[1] = "Leopard",[2] = "PredatorsProwl",[3] = {}}
 wait(2)
 local args={[1] = "Leopard",[2] = "ClawBarrage",[3] = {}}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatorNoYield"):FireServer(unpack(args))
-         until false
+until false
    end,
 })
 
@@ -47,7 +47,7 @@ local args={[1] = "Ope",[2] = "HurricaneShock",[3] = {}}game:GetService("Replica
 wait(2)
 local args={[1] = "Ope",[2] = "Mes",[3] = {}}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatorNoYield"):FireServer(unpack(args))
 wait(2)
-         until false
+until false
    end,
 
 
