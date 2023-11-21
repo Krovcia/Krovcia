@@ -15,7 +15,7 @@ local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 local Toggle = Tab:CreateToggle({
    Name = "Leopard",
    CurrentValue = false,
-   Flag = "Leopard", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
 repeat
 local args={[1] = "Leopard",[2] = "AfterimageCombo",[3] = {}}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatorNoYield"):FireServer(unpack(args))
@@ -32,7 +32,7 @@ until false
 local Toggle = Tab:CreateToggle({
    Name = "Ope",
    CurrentValue = false,
-   Flag = "Ope", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Flag = "Toggle2", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
 repeat
 local args={[1] = "Ope",[2] = "Room",[3] = {}}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatorNoYield"):FireServer(unpack(args))
@@ -49,6 +49,7 @@ local args={[1] = "Ope",[2] = "Mes",[3] = {}}game:GetService("ReplicatedStorage"
 wait(2)
 until false
    end,
+})
 
 
 
