@@ -1,6 +1,4 @@
 
-wait ()
-
 local args={[1] = "Leopard",[2] = "AfterimageCombo",[3] = {}}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatorNoYield"):FireServer(unpack(args))
 wait()
 local args={[1] = "Ope",[2] = "Room",[3] = {}}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatorNoYield"):FireServer(unpack(args))
@@ -86,6 +84,11 @@ local args = {[1] = "Dough",[2] = "Buzzcut",[3] = {["MouseRay"] = {["Normal"] = 
 ["Position"] = Vector3.new(-809.4389038085938, 776.431884765625, -783.634033203125)}}}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatorNoYield"):FireServer(unpack(args))
 wait()
 local args={[1] = "Lightning",[2] = "Raigo",[3] = {}}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatorNoYield"):FireServer(unpack(args))
+
+
+
+
+
 
 
 
