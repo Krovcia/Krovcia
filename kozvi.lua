@@ -55,8 +55,43 @@ wait()
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "PUNK",
+   Name = "Explo",
    Callback = function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -9330, 108, -5203, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+local args = {
+    [1] = "PromptPurchaseCrate",
+    [2] = workspace:WaitForChild("Spawn"):WaitForChild("Crates"):WaitForChild("NormalSwordCrate")
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
+wait()
+local args={[1]="OpeningCase",[2]=true}
+game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+wait()
+local args={[1] = "OpeningCase",[2] = false}
+game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+wait()
+local args = {[1] = "PromptPurchaseCrate", [2]=workspace:WaitForChild("Spawn"):WaitForChild("Crates"):WaitForChild("NormalExplosionCrate")}game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
+wait()
+local args={[1]="OpeningCase",[2]=true}
+game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+wait()
+local args={[1] = "OpeningCase",[2] = false}
+game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+wait()
+local args = {[1] = "PromptPurchaseCrate", [2]=workspace:WaitForChild("Spawn"):WaitForChild("Crates"):WaitForChild("NormalExplosionCrate")}game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
+wait()
+local args={[1]="OpeningCase",[2]=true}
+game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+wait()
+local args={[1] = "OpeningCase",[2] = false}
+game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+wait()
+local args = {[1] = "PromptPurchaseCrate", [2]=workspace:WaitForChild("Spawn"):WaitForChild("Crates"):WaitForChild("NormalExplosionCrate")}game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
+wait()
+local args={[1]="OpeningCase",[2]=true}
+game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+wait()
+local args={[1] = "OpeningCase",[2] = false}
+game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+wait()
    end,
 })
