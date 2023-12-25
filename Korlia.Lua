@@ -25,3 +25,9 @@ local Button = Tab:CreateButton({
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -9330, 108, -5203, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "OBS 3",
+   Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -10871, 708, 971, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+   end,
+})
