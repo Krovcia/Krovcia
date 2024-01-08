@@ -1,35 +1,26 @@
 repeat task.wait() until game:IsLoaded()
 
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="SHEEESH520!!"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="NEWY34R2024!"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="LUVYALL"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="540DAYUM"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="510KWOWW"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="530GYAT"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="500KVIIBE!"}}
-game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
-wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="PRESENT4YALL"}}
-game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
-wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="WANOFIXES"}}
-game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
-wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="K1NGOFB3ASTS"}}
-game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
-wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="KOLDKRAZE!"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="WINTAH2023"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
 local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="LAVAPARTY"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="WINTAH2023"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="KOLDKRAZE!"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
-wait(1)
+wait()
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="SHEEESH520!!"}}
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+wait()
 
     local Player = game.Players.LocalPlayer
     local lib = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
@@ -91,7 +82,7 @@ wait(1)
     
     Section1:AddDropdown({
         Name = "Select Fruits..",
-        List = {"Dough", "Lightning", "Leopard", "Ope", "Venom", "Nika", "DragonV2"},
+        List = {"Dough", "Lightning", "Leopard", "Ope", "Venom", "Nika", "DragonV2", "IceV2", "MagmaV2"},
         Multi = true,
         Flag = "SELECTEDFRUITS",
         Callback = function(selected)
