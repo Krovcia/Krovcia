@@ -60,3 +60,9 @@ wait()
 game:GetService("ReplicatedStorage"):WaitForChild("Replication"):WaitForChild("ClientEvents"):WaitForChild("FlashStep"):InvokeServer()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "SCND 2",
+   Callback = function()
+workspace:WaitForChild("Npc Workspace"):WaitForChild("Sea Teleporter"):WaitForChild("Sea 2"):WaitForChild("UnlockSea"):InvokeServer()
+   end,
+})
