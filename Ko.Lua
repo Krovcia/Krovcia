@@ -21,6 +21,9 @@ wait()
 local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="SHEEESH520!!"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="550POGG"}}
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+wait()
 
     local Player = game.Players.LocalPlayer
     local lib = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
