@@ -1,4 +1,4 @@
-wait(70)
+wait(90)
 local args = {[1] = "IceV2",[2] = "PiercingGlacier",[3] = {
 ["MouseRay"] = {
 ["Normal"] = Vector3.new(-0.02799174003303051, 0.9992106556892395, 0.028183991089463234),
