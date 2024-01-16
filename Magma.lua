@@ -1,4 +1,3 @@
-wait(90)
 repeat
 local args = {[1] = "MagmaV2",[2] = "HoundBlaze",[3] = {
 ["MouseRay"] = {
