@@ -1,4 +1,4 @@
-wait(70)
+wait(90)
 local args = {[1] = "TSRubber",[2] = "JetPistol",[3] = {}
 }
 game:GetService("ReplicatedStorage"):WaitForChild("ReplicatorNoYield"):FireServer(unpack(args))
