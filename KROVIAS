@@ -37,7 +37,7 @@ local args = {[1] = "AdvanceTutorialStep"}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input"):FireServer(unpack(args))
 keypress(0x1B)
 wait(0.2)
-keypress(0x52)
+keypress(0x4C)
 wait(1)
 keypress(0x0D)
 keyrelease(0x0D)
@@ -48,15 +48,44 @@ local Button = Tab:CreateButton({
    Name = "2ST",
    Callback = function()
 
+local VirtualInputManager = game:GetService("VirtualInputManager")
+VirtualInputManager:SendMouseButtonEvent(920, 380, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(920, 380, 0, false, game, 1)
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(580, 180, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(580, 180, 0, false, game, 1)
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(580, 180, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(580, 180, 0, false, game, 1)
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(580, 180, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(580, 180, 0, false, game, 1)
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(580, 180, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(580, 180, 0, false, game, 1)
 
+local args = {[1] = "BannerSummon",[2] = 10,[3] = "UIGoku"}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Server"):InvokeServer(unpack(args))
+
+
+local args = {[1] = "ClaimTask",[2] = "unitgoal"}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input"):FireServer(unpack(args))
+wait(0.5)
+local args = {[1] = "ClaimTask",[2] = "dailyrolls"}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input"):FireServer(unpack(args))
+wait()
+local args = {[1] = "ClaimTask",[2] = "unitgoal"}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input"):FireServer(unpack(args))
+local args = {[1] = "UpgradeInventory"}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Server"):InvokeServer(unpack(args))
 
    end,
 })
 local Button = Tab:CreateButton({
    Name = "MANUAL",
    Callback = function()
-
-
+local args = {[1] = "BannerSummon",[2] = 10,[3] = "UIGoku"}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Server"):InvokeServer(unpack(args))
 
    end,
 })
