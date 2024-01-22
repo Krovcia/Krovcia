@@ -35,6 +35,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input
 wait(2)
 local args = {[1] = "AdvanceTutorialStep"}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input"):FireServer(unpack(args))
+wait(3)
 keypress(0x1B)
 wait(0.2)
 keypress(0x4C)
