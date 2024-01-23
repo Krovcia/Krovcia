@@ -1,14 +1,7 @@
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 2722, -115, -1991, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-wait(1)
-local args = {[1] = "Script448Level",[2] = "-1",[3] = false}
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input"):FireServer(unpack(args))
-wait(1)
-local args = {[1] = "Script448Start"}
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input"):FireServer(unpack(args))
 wait(15)
 local args = {[1] = "SpeedChange",[2] = true}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input"):FireServer(unpack(args))
-
+wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 2722, -115, -1991, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 wait(1)
 local args = {[1] = "Script448Level",[2] = "-1",[3] = false}
