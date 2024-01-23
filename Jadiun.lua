@@ -1,3 +1,18 @@
+keypress(0x44)
+wait(1)
+keyrelease(0x44)
+
+keypress(0x57)
+wait(1)
+keyrelease(0x57)
+
+keypress(0x53)
+wait(1)
+keyrelease(0x53)
+
+keypress(0x41)
+wait(1)
+keyrelease(0x41)
 wait(15)
 local args = {[1] = "SpeedChange",[2] = true}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input"):FireServer(unpack(args))
