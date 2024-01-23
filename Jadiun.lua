@@ -1,3 +1,5 @@
+RunService:Set3dRenderingEnabled(false)
+wait()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
 wait(15)
 local args = {[1] = "SpeedChange",[2] = true}
