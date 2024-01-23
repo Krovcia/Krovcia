@@ -1,18 +1,4 @@
-keypress(0x44)
-wait(1)
-keyrelease(0x44)
-
-keypress(0x57)
-wait(1)
-keyrelease(0x57)
-
-keypress(0x53)
-wait(1)
-keyrelease(0x53)
-
-keypress(0x41)
-wait(1)
-keyrelease(0x41)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
 wait(15)
 local args = {[1] = "SpeedChange",[2] = true}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input"):FireServer(unpack(args))
@@ -63,5 +49,11 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input
 wait(10)
 local args = {[1] = "Summon",[2] = {["Rotation"] = 0,["cframe"] = CFrame.new(65.2757568359375, 179.69444274902344, 1320.208984375, 1, 0, 0, 0, 1, 0, 0, 0, 1),["Unit"] = "SSJBKK Goku"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input"):FireServer(unpack(args))
+wait(1)
+repeat
+local args = {[1] = "Upgrade",[2] = workspace:WaitForChild("Unit"):WaitForChild("SSJBKK Goku")}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Server"):InvokeServer(unpack(args))
+wait(10)
+until(false)
 
 
