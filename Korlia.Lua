@@ -14,20 +14,20 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "LEE",
+   Name = "SORU",
    Callback = function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -9616, 38, 1041, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -2504, 41, -2735, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "PUNK",
+   Name = "HAKI",
    Callback = function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -9330, 108, -5203, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 1660, 14, 739, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "OBS 3",
+   Name = "KEN",
    Callback = function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -10871, 708, 971, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -4129, 387, 1148, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
