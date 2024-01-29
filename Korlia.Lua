@@ -38,7 +38,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -3338, 
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "1ST SEA",
+   Name = "2ST SEA",
    Callback = function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 2135, 36, 1390, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
