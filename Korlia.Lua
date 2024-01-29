@@ -44,9 +44,15 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 2135, 3
    end,
 })
 local Button = Tab:CreateButton({
+   Name = "DARK LEG UPGR",
+   Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -11092, 374, 975, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+   end,
+})
+local Button = Tab:CreateButton({
    Name = "DARK LEG",
    Callback = function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 2135, 36, 1390, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -4922, 60, 55, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
 
