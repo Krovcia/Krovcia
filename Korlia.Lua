@@ -32,15 +32,23 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -4129, 
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "1ST SEA",
+   Name = "2ST SEA",
    Callback = function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -3338, 17, 254, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "2ST SEA",
+   Name = "3ST SEA",
    Callback = function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 2135, 36, 1390, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Log",
+   Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 6544, 419, -3001, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
    end,
 })
 local Button = Tab:CreateButton({
