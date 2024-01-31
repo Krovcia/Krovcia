@@ -17,7 +17,7 @@ local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "PRESTIGE",
    Callback = function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -431, 179, -2072, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -427, 179, -2073, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
 local Button = Tab:CreateButton({
