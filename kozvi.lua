@@ -4,5 +4,8 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Input
 wait(39)
 local args = {[1] = "Upgrade",[2] = workspace:WaitForChild("Unit"):WaitForChild("Speedwagon")}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Server"):InvokeServer(unpack(args))
-
+local args = {[1] = "Upgrade",[2] = workspace:WaitForChild("Unit"):WaitForChild("Speedwagon")}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Server"):InvokeServer(unpack(args))
+local args = {[1] = "Upgrade",[2] = workspace:WaitForChild("Unit"):WaitForChild("Speedwagon")}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Server"):InvokeServer(unpack(args))
 wait(20)
