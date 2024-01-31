@@ -1,6 +1,3 @@
--97, 997, -196
--141, 95, -2275
-
 
 repeat wait() until game:IsLoaded()
 
@@ -20,16 +17,12 @@ local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "PRESTIGE",
    Callback = function()
-local args = {
-[1] = workspace:WaitForChild("Npc_Workspace"):WaitForChild("ObsHaki"):WaitForChild("1") }
-game:GetService("ReplicatedStorage"):WaitForChild("Replication"):WaitForChild("ClientEvents"):WaitForChild("ObsHaki"):InvokeServer(unpack(args))
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -97, 997, -196, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
 local Button = Tab:CreateButton({
    Name = "WORLD2",
    Callback = function()
-local args = {
-[1] = workspace:WaitForChild("Npc_Workspace"):WaitForChild("ObsHaki"):WaitForChild("2") }
-game:GetService("ReplicatedStorage"):WaitForChild("Replication"):WaitForChild("ClientEvents"):WaitForChild("ObsHaki"):InvokeServer(unpack(args))
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -141, 95, -2275, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
