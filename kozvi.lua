@@ -8,7 +8,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Server"):InvokeServer(unpack(args))
-wait(20)
+wait(25)
 local args = {
     [1] = "Summon",
     [2] = {
