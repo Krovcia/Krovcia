@@ -1,7 +1,7 @@
 repeat
 local VirtualInputManager = game:GetService("VirtualInputManager")
 VirtualInputManager:SendMouseButtonEvent(320, 160, 0, true, game, 1)
-VirtualInputManager:SendMouseMoveEvent(320, 800, game)
+VirtualInputManager:SendMouseMoveEvent(320, 500, game)
 wait(0.5)
 VirtualInputManager:SendMouseButtonEvent(320, 160, 0, false, game, 1)
 wait(1)
