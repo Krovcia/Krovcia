@@ -38,5 +38,6 @@ wait(0.2)
 local VirtualInputManager = game:GetService("VirtualInputManager")
 VirtualInputManager:SendMouseButtonEvent(450, 5, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(450, 5, 0, false, game, 1)
+keypress(0x57)
 until(false)
 
