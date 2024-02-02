@@ -1,6 +1,6 @@
 repeat task.wait() until game:IsLoaded()
 
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="NEWY34R2024!"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="SHEEESH520!!"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
 local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="540DAYUM"}}
@@ -9,16 +9,16 @@ wait()
 local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="530GYAT"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="WINTAH2023"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="N3WW0RLD!"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="LAVAPARTY"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="ILOV3C4NDY"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="KOLDKRAZE!"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="HYPEWHOLECAKE"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="SHEEESH520!!"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="YOOO560"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
 local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="550POGG"}}
