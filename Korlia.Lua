@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded()
-wait(10)
+wait()
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Rayfield Example Window",
