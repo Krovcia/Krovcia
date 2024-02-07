@@ -63,7 +63,12 @@ local Button = Tab:CreateButton({
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -4922, 60, 55, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "TELEFARMING",
+   Callback = function()
 
+   end,
+})
 
 
 
