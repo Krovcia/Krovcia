@@ -78,6 +78,74 @@ local args={[1] = "Lightning",[2] = "VoltageUp",[3] = {}}game:GetService("Replic
 
 
 
+local args = {
+    [1] = "Soul",
+    [2] = "ZeusMeadow",
+    [3] = {}
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Soul",
+    [2] = "EnthralGrasp",
+    [3] = {
+        ["MouseRay"] = {
+            ["Normal"] = Vector3.yAxis,
+            ["Direction"] = Vector3.new(-270.87371826171875, -128.35537719726562, 12.342314720153809),
+            ["Origin"] = Vector3.new(-38.742984771728516, 727.0956420898438, 291.56494140625),
+            ["Instance"] = workspace:WaitForChild("Map"):WaitForChild("Part"),
+            ["Distance"] = 33.688140869140625,
+            ["Material"] = Enum.Material.Grass,
+            ["Position"] = Vector3.new(-69.1604232788086, 712.68212890625, 292.9508972167969)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Soul",
+    [2] = "ScorchingSickle",
+    [3] = {
+        ["MouseRay"] = {
+            ["Normal"] = Vector3.yAxis,
+            ["Direction"] = Vector3.new(-270.87371826171875, -128.35537719726562, 12.342314720153809),
+            ["Origin"] = Vector3.new(-38.940242767333984, 727.0956420898438, 291.5738220214844),
+            ["Instance"] = workspace:WaitForChild("Map"):WaitForChild("Part"),
+            ["Distance"] = 33.688140869140625,
+            ["Material"] = Enum.Material.Grass,
+            ["Position"] = Vector3.new(-69.35768127441406, 712.68212890625, 292.95977783203125)
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Soul",
+    [2] = "CrimsonPillar",
+    [3] = {
+        ["MouseRay"] = {
+            ["Normal"] = Vector3.yAxis,
+            ["Direction"] = Vector3.new(-180.58212280273438, -85.5709228515625, 8.228960990905762),
+            ["Origin"] = Vector3.new(-39.586395263671875, 726.4323120117188, 292.00701904296875),
+            ["Instance"] = workspace:WaitForChild("Map"):WaitForChild("Part"),
+            ["Distance"] = 32.137516021728516,
+            ["Material"] = Enum.Material.Grass,
+            ["Position"] = Vector3.new(-68.60369873046875, 712.68212890625, 293.3293151855469)
+        },
+        ["RootCF"] = CFrame.new(-60.06950759887695, 715.6819458007812, 292.54034423828125, -0.045101817697286606, 4.282340171357646e-08, 0.9989823698997498, -4.717385163055532e-11, 1, -4.286915356033205e-08, -0.9989823698997498, -1.980602570839096e-09, -0.045101817697286606)
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+
+
+
+
+
+
 
 
 
