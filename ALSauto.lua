@@ -4,31 +4,31 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
-wait()
+wait(1)
 local args = {
     [1] = "BLAMSPOTBUGFIXCODEMUSTBESUBBEDTOWORK!"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
-wait()
+wait(1)
 local args = {
     [1] = "Sub2MayyJeeeOrCodeWontWork"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
-wait()
+wait(1)
 local args = {
     [1] = "Sub2Noclypso176k"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
-wait()
+wait(1)
 local args = {
     [1] = "Sub2ZerozKinger1MilSubs"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
-wait()
+wait(1)
 local args = {
     [1] = "Sub2KingLuffy"
 }
@@ -59,7 +59,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
-
+wait(2)
 local args = {
     [1] = "10",
     [2] = "1"
@@ -116,3 +116,11 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
 wait(1)
+local args = {
+    [1] = "10",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+wait(1)
+
