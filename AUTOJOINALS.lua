@@ -94,4 +94,9 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Telep
 wait()
 local args = {[1] = "Ready",[2] = "Desert Village",[3] = 1,[4] = "Normal"}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("MapSelect"):InvokeServer(unpack(args))
-wait()
+wait(2)
+local args = {
+    [1] = "Skip"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("Interact"):FireServer(unpack(args))
