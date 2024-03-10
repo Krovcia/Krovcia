@@ -6,6 +6,12 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
 wait(1)
 local args = {
+    [1] = "GrindRerollsFromChallenges!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
     [1] = "BLAMSPOTBUGFIXCODEMUSTBESUBBEDTOWORK!"
 }
 
