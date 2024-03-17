@@ -4,6 +4,22 @@ local args = {
 }game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
 wait()
 local args = {
+    [1] = "Sub2BmGTormenter117onYT"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "Sub2CodeNex77k"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "NeelsTV"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "D1SGUISED"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
     [1] = "GrindRerollsFromChallenges!"
 }game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
 wait()
