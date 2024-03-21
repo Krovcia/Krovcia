@@ -1,5 +1,4 @@
-wait(10)
-wait(3)
+wait(8)
 local args = {[1] = "Ready",[2] = "Star Mansion",[3] = 6,[4] = "Normal"}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("MapSelect"):InvokeServer(unpack(args))
 wait()
