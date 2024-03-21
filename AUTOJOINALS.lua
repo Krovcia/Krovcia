@@ -1,5 +1,4 @@
 wait(10)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -1150, 1133, 175, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 wait(3)
 local args = {[1] = "Ready",[2] = "Star Mansion",[3] = 6,[4] = "Normal"}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("MapSelect"):InvokeServer(unpack(args))
