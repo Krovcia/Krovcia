@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded()
-wait()
+wait(5)
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Rayfield Example Window",
@@ -14,45 +14,48 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "SORU",
+   Name = "1ST",
    Callback = function()
 local args = {
     [1] = "Painting Tool",
     [2] = 1
 }
 workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
-wait()
+wait(0.5)
 local args = {
     [1] = "Binding Tool",
     [2] = 1
 }
 workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
-wait()
+wait(0.5)
 local args = {
     [1] = "Property Tool",
     [2] = 1
 }
 workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
-wait()
+wait(0.5)
 local args = {
     [1] = "Scaling Tool",
     [2] = 1
 }
 workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
-wait()
+wait(0.5)
 local args = {
     [1] = "Trowel Tool",
     [2] = 1
 }
 workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
-wait()
+wait(0.5)
 local args = {
     [1] = "Legendary Chest",
     [2] = 10
 }
-workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args)
+
    end,
 })
+
+)
 
 
 
