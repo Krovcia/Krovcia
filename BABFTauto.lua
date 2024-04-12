@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded()
-
+wait()
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Rayfield Example Window",
@@ -14,8 +14,8 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "OBS HAKI 1",
-   Callback = function()
+   Name = "SORU",
+
 local args = {
     [1] = "Painting Tool",
     [2] = 1
@@ -51,5 +51,6 @@ local args = {
     [2] = 10
 }
 workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args)
-end,
+
+   end,
 })
