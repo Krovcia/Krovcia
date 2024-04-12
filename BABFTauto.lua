@@ -15,7 +15,7 @@ local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "SORU",
-
+   Callback = function()
 local args = {
     [1] = "Painting Tool",
     [2] = 1
