@@ -35,3 +35,11 @@ local args = {[1] = "Legendary Chest",[2] = 10}
 workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
    end,
 })
+
+local Button = Tab:CreateButton({
+   Name = "10",
+   Callback = function()
+local args = {[1] = "Legendary Chest",[2] = 10}
+workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
+   end,
+})
