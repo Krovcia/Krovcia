@@ -52,4 +52,4 @@ local args = {
 }
 workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args)
 end,
-
+})
