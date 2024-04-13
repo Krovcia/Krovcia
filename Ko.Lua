@@ -109,7 +109,7 @@ wait()
     
     Section1:AddDropdown({
         Name = "Select Fruits..",
-        List = {"Dough", "Lightning", "Leopard", "Ope", "Venom", "Nika", "DragonV2", "IceV2", "MagmaV2", "TSRubber", "Soul", "Dragon"},
+        List = {"Dough", "Lightning", "Leopard", "Ope", "Venom", "Nika", "DragonV2", "IceV2", "MagmaV2", "TSRubber", "Soul", "Dragon", "DarkXQuake"},
         Multi = true,
         Flag = "SELECTEDFRUITS",
         Callback = function(selected)
