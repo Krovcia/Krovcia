@@ -45,7 +45,7 @@ wait()
 local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="SPR34DL0V3"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="HIGH590"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="TRUEMENACE"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
 
