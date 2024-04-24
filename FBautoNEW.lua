@@ -1,5 +1,5 @@
 
-wait(30)
+
 
 repeat
 
