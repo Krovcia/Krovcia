@@ -15,8 +15,8 @@ wait(1)
 VirtualInputManager:SendMouseButtonEvent(930, 10, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(930, 10, 0, false, game, 1)
 wait(1)
-VirtualInputManager:SendMouseButtonEvent(820, 100, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(820, 100, 0, false, game, 1)
+VirtualInputManager:SendMouseButtonEvent(820, 130, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(820, 130, 0, false, game, 1)
 -----------------
 wait(1)
 
