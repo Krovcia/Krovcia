@@ -18,7 +18,7 @@ wait(1)
 VirtualInputManager:SendMouseButtonEvent(820, 130, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(820, 130, 0, false, game, 1)
 -----------------
-wait(0.5)
+wait(1)
 --INVENTORY GUI--
 VirtualInputManager:SendMouseButtonEvent(930, 10, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(930, 10, 0, false, game, 1)
