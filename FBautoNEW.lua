@@ -26,7 +26,7 @@ wait(1)
 VirtualInputManager:SendMouseButtonEvent(820, 90, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(820, 90, 0, false, game, 1)
 -----------------
-wait(2)
+wait(1)
 
 ---00000000000-------00000000000-------00000000000-------00000000000-------00000000000---
 --Keypress 1--
