@@ -72,7 +72,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Krovcia/Krovcia/main/
 local Button = Tab:CreateButton({
    Name = "ONI",
    Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Krovcia/Krovcia/main/Kozvi.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Krovcia/Krovcia/main/oni.lua'))()
    end,
 })
 
