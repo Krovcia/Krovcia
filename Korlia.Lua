@@ -16,7 +16,7 @@ local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "SORU",
    Callback = function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -2504, 41, -2735, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -2518, 76, -2652, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
 local Button = Tab:CreateButton({
@@ -76,7 +76,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Krovcia/Krovcia/main/
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "ONI",
+   Name = "TENGU",
    Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Krovcia/Krovcia/main/tengua.lua'))()
    end,
