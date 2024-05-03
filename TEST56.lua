@@ -77,4 +77,3 @@ VirtualInputManager:SendMouseButtonEvent(820, 130, 0, false, game, 1)
 -----------------
 end 
 end
-end
