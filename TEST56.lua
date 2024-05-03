@@ -1,3 +1,5 @@
+game.StarterGui:SetCoreGuiEnabled(2, true)
+
 while wait() do
 local VirtualInputManager = game:GetService("VirtualInputManager")
 if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
