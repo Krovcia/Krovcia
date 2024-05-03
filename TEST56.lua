@@ -62,7 +62,8 @@ VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
 ------------------
 
-elseif  game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
+else
+game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
 game.StarterGui:SetCoreGuiEnabled(2, true)
 wait(1)
 VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
@@ -78,13 +79,4 @@ VirtualInputManager:SendMouseButtonEvent(820, 130, 0, false, game, 1)
 -----------------
 end
 end
-while wait(1) do
-if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
-keypress(0x1B)
-wait(0.5)
-keypress(0x52)
-wait(0.5)
-keypress(0x0D)
-keyrelease(0x0D)
-end
-end
+
