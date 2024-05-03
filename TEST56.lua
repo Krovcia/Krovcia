@@ -68,27 +68,12 @@ wait(1)
 game.StarterGui:SetCoreGuiEnabled(2, true)
 VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 330, 0, false, game, 1)
-wait(2)
---INVENTORY GUI--
+wait(4)
 VirtualInputManager:SendMouseButtonEvent(930, 10, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(930, 10, 0, false, game, 1)
 wait(1)
 VirtualInputManager:SendMouseButtonEvent(820, 130, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(820, 130, 0, false, game, 1)
 -----------------
-wait(0.5)
---Activate Skill--
-VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
-------------------
-wait(0.5)
---INVENTORY GUI--
-VirtualInputManager:SendMouseButtonEvent(930, 10, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(930, 10, 0, false, game, 1)
-wait(1)
-VirtualInputManager:SendMouseButtonEvent(820, 90, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(820, 90, 0, false, game, 1)
------------------
-wait(1)
 end 
 end
