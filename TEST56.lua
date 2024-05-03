@@ -63,7 +63,7 @@ VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
 ------------------
 
-elseif game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
+if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
 local VirtualInputManager = game:GetService("VirtualInputManager")
 wait(5)
 VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
