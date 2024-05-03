@@ -61,14 +61,6 @@ wait(0.1)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
 ------------------
-if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
-keypress(0x1B)
-wait(0.5)
-keypress(0x52)
-wait(0.5)
-keypress(0x0D)
-keyrelease(0x0D)
-    end
 else
 game.StarterGui:SetCoreGuiEnabled(2, true)
 wait(1)
@@ -83,6 +75,14 @@ wait(1)
 VirtualInputManager:SendMouseButtonEvent(820, 130, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(820, 130, 0, false, game, 1)
 -----------------
+end
+if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 200 then
+keypress(0x1B)
+wait(0.5)
+keypress(0x52)
+wait(0.5)
+keypress(0x0D)
+keyrelease(0x0D)
 end
 end
 
