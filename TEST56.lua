@@ -1,4 +1,3 @@
-
 while wait() do
 local VirtualInputManager = game:GetService("VirtualInputManager")
 if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
@@ -8,13 +7,10 @@ keypress(0x52)
 wait(0.5)
 keypress(0x0D)
 keyrelease(0x0D)
+wait(5)
+VirtualInputManager:SendMouseButtonEvent(930, 10, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(930, 10, 0, false, game, 1)
 wait(2)
-local args = {[1] = "Core",[2] = "LoadCharacter",[3] = {}}
-game:GetService("ReplicatedStorage"):WaitForChild("ReplicatorNoYield"):FireServer(unpack(args))
-wait()
-local args = {[1] = "Main",[2] = "LoadCharacter"}
-game:GetService("ReplicatedStorage"):WaitForChild("ReplicatorNoYield"):FireServer(unpack(args))
-wait(1)
 --INVENTORY GUI--
 VirtualInputManager:SendMouseButtonEvent(930, 10, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(930, 10, 0, false, game, 1)
