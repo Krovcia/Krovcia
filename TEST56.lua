@@ -7,10 +7,8 @@ keypress(0x52)
 wait(0.5)
 keypress(0x0D)
 keyrelease(0x0D)
-wait(5)
-VirtualInputManager:SendMouseButtonEvent(930, 10, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(930, 10, 0, false, game, 1)
-wait(2)
+  elseif game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible = false then
+
 --INVENTORY GUI--
 VirtualInputManager:SendMouseButtonEvent(930, 10, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(930, 10, 0, false, game, 1)
