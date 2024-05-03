@@ -1,5 +1,4 @@
 
-local VirtualInputManager = game:GetService("VirtualInputManager")
 while wait() do
 if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
 keypress(0x1B)
@@ -38,6 +37,7 @@ VirtualInputManager:SendMouseButtonEvent(820, 90, 0, false, game, 1)
 wait(1)
 
 elseif game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") > 50 then
+local VirtualInputManager = game:GetService("VirtualInputManager")
 --Keypress 1--
 keypress(0x31)
 keyrelease(0x31)
