@@ -1,5 +1,4 @@
 while wait() do
-local VirtualInputManager = game:GetService("VirtualInputManager")
 
 if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
 --Keypress 1--
@@ -33,7 +32,6 @@ VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
 ------------------
 wait(0.5)
 --4th Skill--
-local VirtualInputManager = game:GetService("VirtualInputManager")
 VirtualInputManager:SendMouseButtonEvent(400, 350, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(400, 350, 0, false, game, 1)
 -------------
@@ -62,42 +60,10 @@ wait(0.5)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
 ------------------
+wait(0.5
 
-if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
-local VirtualInputManager = game:GetService("VirtualInputManager")
-wait(5)
-VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(500, 330, 0, false, game, 1)
-wait(3)
---INVENTORY GUI--
-VirtualInputManager:SendMouseButtonEvent(930, 10, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(930, 10, 0, false, game, 1)
+elseif  game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
+print("false")
 wait(1)
-VirtualInputManager:SendMouseButtonEvent(820, 130, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(820, 130, 0, false, game, 1)
------------------
-wait(0.5)
---Activate Skill--
-VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
-------------------
-wait(0.5)
---INVENTORY GUI--
-VirtualInputManager:SendMouseButtonEvent(930, 10, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(930, 10, 0, false, game, 1)
-wait(1)
-VirtualInputManager:SendMouseButtonEvent(820, 90, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(820, 90, 0, false, game, 1)
------------------
-wait(1)
-
-if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
-keypress(0x1B)
-wait(0.5)
-keypress(0x52)
-wait(0.5)
-keypress(0x0D)
-keyrelease(0x0D)
-
-end
+end 
 end
