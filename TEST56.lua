@@ -1,4 +1,3 @@
-wait(30)
 while wait(1) do
 local VirtualInputManager = game:GetService("VirtualInputManager")
 if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
