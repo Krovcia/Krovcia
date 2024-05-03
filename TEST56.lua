@@ -1,13 +1,4 @@
 wait(30)
-local VirtualInputManager = game:GetService("VirtualInputManager")
-VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
-wait(1)
-VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
-wait(4)
-VirtualInputManager:SendMouseButtonEvent(530, 330, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(530, 330, 0, false, game, 1)
 while wait(1) do
 if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
 wait(0.5)
