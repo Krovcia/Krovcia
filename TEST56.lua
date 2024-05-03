@@ -63,7 +63,6 @@ VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
 ------------------
 
 else
-game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
 game.StarterGui:SetCoreGuiEnabled(2, true)
 wait(1)
 VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
