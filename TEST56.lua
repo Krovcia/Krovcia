@@ -68,7 +68,7 @@ keypress(0x52)
 wait(0.5)
 keypress(0x0D)
 keyrelease(0x0D)
-
+    end
 else
 game.StarterGui:SetCoreGuiEnabled(2, true)
 wait(1)
