@@ -1,3 +1,5 @@
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
 while wait() do
 if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
 keypress(0x1B)
