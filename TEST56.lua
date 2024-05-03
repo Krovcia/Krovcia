@@ -1,5 +1,4 @@
 wait(30)
-game.StarterGui:SetCoreGuiEnabled(2, true)
 while wait() do
 local VirtualInputManager = game:GetService("VirtualInputManager")
 if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
@@ -66,6 +65,7 @@ VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
 
 elseif  game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
 wait(1)
+game.StarterGui:SetCoreGuiEnabled(2, true)
 VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 330, 0, false, game, 1)
 wait(2)
