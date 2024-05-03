@@ -1,15 +1,7 @@
 while wait() do
 local VirtualInputManager = game:GetService("VirtualInputManager")
 
-if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
-keypress(0x1B)
-wait(0.5)
-keypress(0x52)
-wait(0.5)
-keypress(0x0D)
-keyrelease(0x0D)
-
-elseif game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
+if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
 local VirtualInputManager = game:GetService("VirtualInputManager")
 wait(5)
 VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
@@ -98,5 +90,14 @@ wait(0.5)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
 ------------------
+
+if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
+keypress(0x1B)
+wait(0.5)
+keypress(0x52)
+wait(0.5)
+keypress(0x0D)
+keyrelease(0x0D)
+
 end
 end
