@@ -1,6 +1,6 @@
 while wait(1) do
 local VirtualInputManager = game:GetService("VirtualInputManager")
-if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") > 50 true then
+if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") > 50 then
 wait(0.5)
 --Keypress 1--
 keypress(0x31)
