@@ -1,7 +1,7 @@
 while wait(1) do
 local VirtualInputManager = game:GetService("VirtualInputManager")
 if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
-wait(0.5)
+wait(0.1)
 --Keypress 1--
 keypress(0x31)
 keyrelease(0x31)
@@ -61,6 +61,7 @@ wait(0.1)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
 ------------------
+
 else
 game.StarterGui:SetCoreGuiEnabled(2, true)
 wait(1)
