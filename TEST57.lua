@@ -14,5 +14,6 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Button!",
 	Callback = function()
+print("kornot")
   	end    
 })
