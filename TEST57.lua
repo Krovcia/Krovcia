@@ -14,6 +14,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Button!",
 	Callback = function()
-      		print("button pressed")
+      		if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
+game.Players.LocalPlayer.Character.Humanoid = 0
   	end    
 })
