@@ -15,7 +15,7 @@ local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "SORU",
    Callback = function()
-if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 200 then
+if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 250 then
 keypress(0x1B)
 wait(0.5)
 keypress(0x52)
