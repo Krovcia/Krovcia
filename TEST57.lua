@@ -15,6 +15,6 @@ Tab:AddButton({
 	Name = "Button!",
 	Callback = function()
       		if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
-game.Players.LocalPlayer.Character.Humanoid = 0
+game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
   	end    
 })
