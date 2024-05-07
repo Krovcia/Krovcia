@@ -1,6 +1,7 @@
 wait(10)
 local VirtualInputManager = game:GetService("VirtualInputManager");
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Krovcia/Krovcia/main/TEST57.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Krovcia/Krovcia/main/TEST60.lua"))();
 while wait(1) do
 if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
 wait(0.1)
