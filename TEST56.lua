@@ -1,6 +1,6 @@
 wait(10)
 local VirtualInputManager = game:GetService("VirtualInputManager");
-while wait() do
+while wait(0.5) do
 if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
 wait(0.1)
 --Keypress 1--
