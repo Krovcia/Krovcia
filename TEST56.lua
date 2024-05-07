@@ -63,7 +63,7 @@ VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
 ------------------
 if game:GetService("Players").LocalPlayer.Character == nil then
-else if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") > 50 then
+else if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
     game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
 end
 end
