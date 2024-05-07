@@ -70,6 +70,8 @@ while wait(0.1) do
     end
 
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true and game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible == false then
+        game.StarterGui:SetCoreGuiEnabled(2, true)
+        wait()
         game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible = true
     end
     
@@ -78,8 +80,6 @@ while wait(0.1) do
     wait(1)
     VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
     VirtualInputManager:SendMouseButtonEvent(500, 330, 0, false, game, 1)
-    wait(4)
-    game.StarterGui:SetCoreGuiEnabled(2, true)    
     end
 
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false and game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible == true then
