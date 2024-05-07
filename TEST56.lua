@@ -70,9 +70,8 @@ while wait(0.1) do
     end
 
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true and game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible == false then
-        game.StarterGui:SetCoreGuiEnabled(2, true)
-        wait()
         game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible = true
+        game.StarterGui:SetCoreGuiEnabled(2, true)       
     end
     
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
