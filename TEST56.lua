@@ -96,10 +96,6 @@ VirtualInputManager:SendMouseButtonEvent(820, 90, 0, false, game, 1)
 end
 end
 
-while wait(300) do
-if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then 
-                   game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
-  end
-end
+
 
 
