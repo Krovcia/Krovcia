@@ -63,9 +63,11 @@ wait(0.1)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
 ------------------
-wait(0.1)
-VirtualInputManager:SendMouseButtonEvent(500, 230, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(500, 230, 0, false, game, 1)
+if game:GetService("Players").LocalPlayer.Character == nil then
+else if game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") > 50 then
+    game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
+end
+end
 
 else
 game.StarterGui:SetCoreGuiEnabled(2, true)
