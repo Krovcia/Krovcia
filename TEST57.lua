@@ -1,3 +1,5 @@
+--Marco AUTO--
+
 wait(10)
 local VirtualInputManager = game:GetService("VirtualInputManager");
 
@@ -65,6 +67,9 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         --Activate Skill--
         VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
         VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
+        wait(0.1)
+        VirtualInputManager:SendMouseButtonEvent(500, 230, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 230, 0, false, game, 1)
     end
 
     if game:GetService("Players").LocalPlayer.Character == nil then
