@@ -1,4 +1,7 @@
+--AUTO LEVELING--
+
 wait(10)
+
 local VirtualInputManager = game:GetService("VirtualInputManager");
 while wait(0.1) do
 
