@@ -66,7 +66,7 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
     end
 
     if game:GetService("Players").LocalPlayer.Character == nil then
-    elseif game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
+    elseif game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true and game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
         game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
     end
 
