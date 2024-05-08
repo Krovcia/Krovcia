@@ -2,7 +2,7 @@
 
 wait(10)
 local VirtualInputManager = game:GetService("VirtualInputManager");
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Krovcia/Krovcia/main/TEST59.lua")(); --MARCO GUI REPEAT--
 
 while wait(0.1) do
 
