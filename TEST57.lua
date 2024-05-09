@@ -11,4 +11,4 @@ keypress(0x4B)
     elseif y > 10 and y < 1000 then
 VirtualInputManager:SendMouseButtonEvent(500, 230, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 230, 0, false, game, 1)
-
+      end
