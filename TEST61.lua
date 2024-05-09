@@ -30,7 +30,7 @@ while wait(0.1) do
     if y > 500 and y < 5000 then
         keypress(0x4B)
     elseif y > 10 and y < 500 then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Characters.NPCs.Marco.Attire.Torso.ClothingTorso
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Characters.NPCs.Marco.Attire.Torso.ClothingTorso.CFrame
 
     end
 end
