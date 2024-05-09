@@ -110,10 +110,12 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
     end
 
     if game:GetService("Players").LocalPlayer.Character == nil then
+    else
     wait(10)
     keypress(0x4A)
     end
 
+    if game:GetService("Players").LocalPlayer.Character == nil then
     local z = string.sub((game:GetService("Players").LocalPlayer.PlayerGui.UI.Info.ServerTime.Text), 15, 20)
     local y = string.gsub(z, ":", "")
     local y = tonumber(y)
