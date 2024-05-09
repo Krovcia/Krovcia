@@ -12,6 +12,7 @@ local BossKill = Instance.new("TextButton")
 BossKill.Parent = gui
 BossKill.Position = UDim2.new(0, 440, 0, 30)
 BossKill.Size = UDim2.new(0, 60, 0, 60)
+BossKill.TextSize = 25
 
 local Servertime = Instance.new("TextButton")
 Servertime.Parent = gui
