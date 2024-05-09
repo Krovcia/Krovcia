@@ -2,7 +2,25 @@
 
 wait(10)
 local VirtualInputManager = game:GetService("VirtualInputManager");
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Krovcia/Krovcia/main/TEST59.lua")(); --MARCO GUI REPEAT--
+
+local gui = Instance.new("ScreenGui")
+gui.Parent = game.Players.LocalPlayer.PlayerGui -- This places the GUI in the player's screen
+
+local Boss = Instance.new("TextButton")
+Boss.Parent = gui
+Boss.Position = UDim2.new(0, 400, 0, 30)
+Boss.Size = UDim2.new(0, 40, 0, 20)
+Boss.Text = "Boss:"
+
+local BossKill = Instance.new("TextButton")
+BossKill.Parent = gui
+BossKill.Position = UDim2.new(0, 440, 0, 30)
+BossKill.Size = UDim2.new(0, 20, 0, 20)
+
+local Servertime = Instance.new("TextButton")
+Servertime.Parent = gui
+Servertime.Position = UDim2.new(0, 400, 0, 10)
+Servertime.Size = UDim2.new(0, 150, 0, 20)
 
 while wait(0.1) do
 
@@ -90,5 +108,21 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false and game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible == true then
     game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible = false
     end
+
+    if game:GetService("Players").LocalPlayer.Character == nil then
+    wait(10)
+    keypress(0x4A)
+    end
+
+    if y > 1000 and y < 5000 then
+        keypress(0x4B)
+    elseif y > 10 and y < 1000 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Characters.NPCs.Marco.Attire.Torso.ClothingTorso
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, false, game, 1)
+    end
+
+Servertime.Text = game:GetService("Players").LocalPlayer.PlayerGui.UI.Info.ServerTime.Text
+BossKill.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.BossKills.Value
 
 end
