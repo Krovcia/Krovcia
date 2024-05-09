@@ -11,7 +11,8 @@ if game:GetService("Players").LocalPlayer.Character == nil then
       local y = tonumber(y)
       end
 
-if y > 500 and y < 5000 then
+if game:GetService("Players").LocalPlayer.Character == nil then
+    elseif game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true and y > 500 and y < 5000 then
 keypress(0x4B)
 elseif y > 10 and y < 500 then
 VirtualInputManager:SendMouseButtonEvent(500, 230, 0, true, game, 1)
