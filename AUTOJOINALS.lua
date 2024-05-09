@@ -212,248 +212,249 @@ end
 
 local StoryProgress = game:GetService("Players").LocalPlayer.StoryProgress
 
+
 if StoryProgress.Value == 0 then
     do
-        story1()
+        story0()
     end
 end
 
 if StoryProgress.Value == 1 then
     do
-        story2()
+        story1()
     end
 end
 
 if StoryProgress.Value == 2 then
     do
-        story3()
+        story2()
     end
 end
 
 if StoryProgress.Value == 3 then
     do
-        story4()
+        story3()
     end
 end
 
 if StoryProgress.Value == 4 then
     do
-        story5()
+        story4()
     end
 end
 
 if StoryProgress.Value == 5 then
     do
-        story6()
+        story5()
     end
 end
 
 if StoryProgress.Value == 6 then
     do
-        story7()
+        story6()
     end
 end
 
 if StoryProgress.Value == 7 then
     do
-        story8()
+        story7()
     end
 end
 
 if StoryProgress.Value == 8 then
     do
-        story9()
+        story8()
     end
 end
 
 if StoryProgress.Value == 9 then
     do
-        story10()
+        story9()
     end
 end
 
 if StoryProgress.Value == 10 then
     do
-        story11()
+        story10()
     end
 end
 
 if StoryProgress.Value == 11 then
     do
-        story12()
+        story11()
     end
 end
 
 if StoryProgress.Value == 12 then
     do
-        story13()
+        story12()
     end
 end
 
 if StoryProgress.Value == 13 then
     do
-        story14()
+        story13()
     end
 end
 
 if StoryProgress.Value == 14 then
     do
-        story15()
+        story14()
     end
 end
 
 if StoryProgress.Value == 15 then
     do
-        story16()
+        story15()
     end
 end
 
 if StoryProgress.Value == 16 then
     do
-        story17()
+        story16()
     end
 end
 
 if StoryProgress.Value == 17 then
     do
-        story18()
+        story17()
     end
 end
 
 if StoryProgress.Value == 18 then
     do
-        story19()
+        story18()
     end
 end
 
 if StoryProgress.Value == 19 then
     do
-        story20()
+        story19()
     end
 end
 
 if StoryProgress.Value == 20 then
     do
-        story21()
+        story20()
     end
 end
 
 if StoryProgress.Value == 21 then
     do
-        story22()
+        story21()
     end
 end
 
 if StoryProgress.Value == 22 then
     do
-        story23()
+        story22()
     end
 end
 
 if StoryProgress.Value == 23 then
     do
-        story24()
+        story23()
     end
 end
 
 if StoryProgress.Value == 24 then
     do
-        story25()
+        story24()
     end
 end
 
 if StoryProgress.Value == 25 then
     do
-        story26()
+        story25()
     end
 end
 
 if StoryProgress.Value == 26 then
     do
-        story27()
+        story26()
     end
 end
 
 if StoryProgress.Value == 27 then
     do
-        story28()
+        story27()
     end
 end
 
 if StoryProgress.Value == 28 then
     do
-        story29()
+        story28()
     end
 end
 
 if StoryProgress.Value == 29 then
     do
-        story30()
+        story29()
     end
 end
 
 if StoryProgress.Value == 30 then
     do
-        story31()
+        story30()
     end
 end
 
 if StoryProgress.Value == 31 then
     do
-        story32()
+        story31()
     end
 end
 
 if StoryProgress.Value == 32 then
     do
-        story33()
+        story32()
     end
 end
 
 if StoryProgress.Value == 33 then
     do
-        story34()
+        story33()
     end
 end
 
 if StoryProgress.Value == 34 then
     do
-        story35()
+        story34()
     end
 end
 
 if StoryProgress.Value == 35 then
     do
-        story36()
+        story35()
     end
 end
 
 if StoryProgress.Value == 36 then
     do
-        story37()
+        story36()
     end
 end
 
 if StoryProgress.Value == 37 then
     do
-        story38()
+        story37()
     end
 end
 
 if StoryProgress.Value == 38 then
     do
-        story39()
+        story38()
     end
 end
 
 if StoryProgress.Value == 39 then
     do
-        story40()
+        story39()
     end
 end
 
 if StoryProgress.Value == 40 then
     do
-        story41()
+        story40()
     end
 end
