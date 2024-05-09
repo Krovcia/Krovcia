@@ -1,4 +1,4 @@
-wait(5)
+wait(60)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Krovcia/Krovcia/main/TEST59.lua"))();
 local VirtualInputManager = game:GetService("VirtualInputManager");
 
