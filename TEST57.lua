@@ -8,6 +8,15 @@ while wait(0.1) do
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
         wait(0.1)
 game.StarterGui:SetCoreGuiEnabled(2, true)  
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, false, game, 1)
+        wait(0.1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, false, game, 1)
+        wait(0.1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, false, game, 1)
+        wait(0.1)
         --Keypress 1--
         keypress(0x31)
         keyrelease(0x31)
@@ -66,6 +75,15 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         --Activate Skill--
         VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
         VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
+        wait(0.1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, false, game, 1)
+        wait(0.1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, false, game, 1)
+        wait(0.1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, false, game, 1)
     end
 
     if game:GetService("Players").LocalPlayer.Character == nil then
