@@ -3,6 +3,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Krovcia/Krovcia/main/
 local VirtualInputManager = game:GetService("VirtualInputManager");
 
 while wait(10) do
+
+if 
       local z = string.sub((game:GetService("Players").LocalPlayer.PlayerGui.UI.Info.ServerTime.Text), 15, 20)
       local y = string.gsub(z, ":", "")
       local y = tonumber(y)
