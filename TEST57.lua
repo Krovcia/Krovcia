@@ -12,3 +12,4 @@ keypress(0x4B)
 VirtualInputManager:SendMouseButtonEvent(500, 230, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 230, 0, false, game, 1)
       end
+end
