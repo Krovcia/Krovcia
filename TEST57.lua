@@ -1,6 +1,5 @@
 --AUTO LEVELING MACRO--
 
-wait(10)
 
 local VirtualInputManager = game:GetService("VirtualInputManager");
 
