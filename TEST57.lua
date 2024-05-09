@@ -115,8 +115,7 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         keypress(0x4B)
     elseif y > 10 and y < 1000 then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Characters.NPCs.Marco.Attire.Torso.ClothingTorso
-        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, false, game, 1)
+        wait(0.2)
     end
 
 end
