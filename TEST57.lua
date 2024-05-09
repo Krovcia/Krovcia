@@ -107,6 +107,16 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false and game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible == true then
     game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible = false
     end
+    local z = string.sub((game:GetService("Players").LocalPlayer.PlayerGui.UI.Info.ServerTime.Text), 15, 20)
+    local y = string.gsub(z, ":", "")
+    local y = tonumber(y)
 
+    if y > 1000 and y < 5000 then
+        keypress(0x4B)
+    elseif y > 10 and y < 1000 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Characters.NPCs.Marco.Attire.Torso.ClothingTorso
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, false, game, 1)
+    end
 
 end
