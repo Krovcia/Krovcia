@@ -118,4 +118,10 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         wait(0.2)
     end
 
+    if game:GetService("Players").LocalPlayer.Character == nil then
+    elseif game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
+    wait(10)
+    keypress(0x4A)
+    end
+
 end
