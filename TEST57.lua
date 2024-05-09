@@ -1,6 +1,7 @@
---Marco AUTO--
+--AUTO LEVELING MACRO--
 
 wait(10)
+
 local VirtualInputManager = game:GetService("VirtualInputManager");
 
 local gui = Instance.new("ScreenGui")
@@ -23,6 +24,8 @@ Servertime.Position = UDim2.new(0, 400, 0, 10)
 Servertime.Size = UDim2.new(0, 150, 0, 20)
 
 while wait(0.1) do
+Servertime.Text = game:GetService("Players").LocalPlayer.PlayerGui.UI.Info.ServerTime.Text
+BossKill.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.BossKills.Value
 
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
         wait(0.1)
@@ -85,9 +88,6 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         --Activate Skill--
         VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
         VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
-        wait(0.1)
-        VirtualInputManager:SendMouseButtonEvent(500, 230, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(500, 230, 0, false, game, 1)
     end
 
     if game:GetService("Players").LocalPlayer.Character == nil then
@@ -109,10 +109,5 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
     game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible = false
     end
 
-    if game:GetService("Players").LocalPlayer.Character == nil then
-    else
-    wait(10)
-    keypress(0x4A)
-    end
 
 end
