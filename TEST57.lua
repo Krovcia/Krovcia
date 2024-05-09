@@ -115,21 +115,4 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
     keypress(0x4A)
     end
 
-    if game:GetService("Players").LocalPlayer.Character == nil then
-    local z = string.sub((game:GetService("Players").LocalPlayer.PlayerGui.UI.Info.ServerTime.Text), 15, 20)
-    local y = string.gsub(z, ":", "")
-    local y = tonumber(y)
-    end
-    
-    if y > 1000 and y < 5000 then
-        keypress(0x4B)
-    elseif y > 10 and y < 1000 then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Characters.NPCs.Marco.Attire.Torso.ClothingTorso
-        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(600, 10, 0, false, game, 1)
-    end
-
-Servertime.Text = game:GetService("Players").LocalPlayer.PlayerGui.UI.Info.ServerTime.Text
-BossKill.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.BossKills.Value
-
 end
