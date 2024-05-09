@@ -5,7 +5,7 @@ gui.Parent = game.Players.LocalPlayer.PlayerGui -- This places the GUI in the pl
 local Boss = Instance.new("TextButton")
 Boss.Parent = gui
 Boss.Position = UDim2.new(0, 400, 0, 30)
-Boss.Size = UDim2.new(0, 40, 0, 20)
+Boss.Size = UDim2.new(0, 40, 0, 60)
 Boss.Text = "Boss:"
 
 local BossKill = Instance.new("TextButton")
