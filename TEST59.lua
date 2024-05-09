@@ -18,7 +18,7 @@ Tab:AddButton({
 	Callback = function()
 local VirtualInputManager = game:GetService("VirtualInputManager");
 while wait(0.1) do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Characters.NPCs.Marco.Attire.Torso.ClothingTorso
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Characters.NPCs.Marco.Attire.Torso.ClothingTorso.CFrame
 VirtualInputManager:SendMouseButtonEvent(600, 10, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(600, 10, 0, false, game, 1)
 end
