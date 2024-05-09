@@ -119,7 +119,8 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
     local z = string.sub((game:GetService("Players").LocalPlayer.PlayerGui.UI.Info.ServerTime.Text), 15, 20)
     local y = string.gsub(z, ":", "")
     local y = tonumber(y)
-
+    end
+    
     if y > 1000 and y < 5000 then
         keypress(0x4B)
     elseif y > 10 and y < 1000 then
