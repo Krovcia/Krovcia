@@ -4,13 +4,16 @@ local VirtualInputManager = game:GetService("VirtualInputManager");
 
 while wait(10) do
 
-if 
+if game:GetService("Players").LocalPlayer.Character == nil then
+    elseif game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
       local z = string.sub((game:GetService("Players").LocalPlayer.PlayerGui.UI.Info.ServerTime.Text), 15, 20)
       local y = string.gsub(z, ":", "")
       local y = tonumber(y)
-    if y > 500 and y < 5000 then
+      end
+
+if y > 500 and y < 5000 then
 keypress(0x4B)
-    elseif y > 10 and y < 500 then
+elseif y > 10 and y < 500 then
 VirtualInputManager:SendMouseButtonEvent(500, 230, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 230, 0, false, game, 1)
       end
