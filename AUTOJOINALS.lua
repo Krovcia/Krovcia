@@ -458,3 +458,9 @@ if StoryProgress.Value == 40 then
         story40()
     end
 end
+
+if StoryProgress.Value == 41 then
+    do
+        story41()
+    end
+end
