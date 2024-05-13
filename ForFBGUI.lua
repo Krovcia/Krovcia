@@ -44,6 +44,12 @@ DAPET.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
     GEMS.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.Gems.Value
     BUAH.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.Slots["1"].Value
 
+DAPET2.Parent = gui
+DAPET2.Position = UDim2.new(0, 130, 0, 50)
+DAPET2.Size = UDim2.new(0, 120, 0, 60)
+DAPET2.TextSize = 25
+DAPET2.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.Slots["2"].Value
+
 
 else
 DAPET.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
