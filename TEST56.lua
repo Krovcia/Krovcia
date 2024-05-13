@@ -89,7 +89,7 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
 local TPoneH = game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Level.Text
 local TPoneH = tonumber(TPoneH)
 
-if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true and game:GetService("Players").LocalPlayer.Character ~= nil and TPoneH > 100 then
+if game.PlaceId ~= 16190471004 and game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true and game:GetService("Players").LocalPlayer.Character ~= nil and TPoneH > 100 then
 local args = {[1] = "Core",[2] = "Teleport",[3] = {["PlaceId"] = 16190471004 }}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 end
