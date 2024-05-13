@@ -86,6 +86,13 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false and game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible == true then
     game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible = false
     end
+local TPoneH = game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Level.Text
+local TPoneH = tonumber(TPoneH)
+
+if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true and game:GetService("Players").LocalPlayer.Character ~= nil and TPoneH > 100 then
+local args = {[1] = "Core",[2] = "Teleport",[3] = {["PlaceId"] = 16190471004 }}
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+end
 
 end
 
