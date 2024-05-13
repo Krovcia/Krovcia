@@ -18,7 +18,7 @@ local Button = Tab:CreateButton({
    Callback = function()
 local args = {
     [1] = "10",
-    [2] = "1"
+    [2] = "2"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
