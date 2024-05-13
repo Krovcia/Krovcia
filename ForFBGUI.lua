@@ -43,7 +43,7 @@ DAPET.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
     DAPET.Text = "YES"
     GEMS.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.Gems.Value
     BUAH.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.Slots["1"].Value
-
+local DAPET2 = Instance.new("TextButton")
 DAPET2.Parent = gui
 DAPET2.Position = UDim2.new(0, 130, 0, 50)
 DAPET2.Size = UDim2.new(0, 120, 0, 60)
