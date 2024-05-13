@@ -46,7 +46,7 @@ DAPET.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 
 local DAPET2 = Instance.new("TextButton")
 DAPET2.Parent = gui
-DAPET2.Position = UDim2.new(0, 130, 0, 1200)
+DAPET2.Position = UDim2.new(0, 10, 0, 110)
 DAPET2.Size = UDim2.new(0, 120, 0, 60)
 DAPET2.TextSize = 25
 DAPET2.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.Slots["2"].Value
