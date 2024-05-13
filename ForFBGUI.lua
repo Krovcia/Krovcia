@@ -52,7 +52,7 @@ DAPET2.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.Slots["2"].Value
 
 
 else
-DAPET.BackgroundColor3 = Color3.fromRGB(200, 100, 0)
+DAPET.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
 DAPET.Text = "NO"
     GEMS.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.Gems.Value
     BUAH.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.Slots["1"].Value
