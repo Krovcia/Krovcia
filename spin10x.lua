@@ -14,11 +14,23 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "MANUAL",
+   Name = "banner 2",
    Callback = function()
 local args = {
     [1] = "10",
     [2] = "2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "banner 1",
+   Callback = function()
+local args = {
+    [1] = "10",
+    [2] = "1"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Summon"):InvokeServer(unpack(args))
