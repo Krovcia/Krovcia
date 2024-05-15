@@ -1,4 +1,4 @@
-
+wait(5)
 function story0()
     local args = {[1] = "Ready",[2] = "Desert Village",[3] = 1,[4] = "Normal"}
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("MapSelect"):InvokeServer(unpack(args))
