@@ -300,3 +300,33 @@ if StoryProgress.Value == 14 then
         story11()
     end
 end
+
+if StoryProgress.Value == 15 then
+    do
+        story11()
+    end
+end
+
+if StoryProgress.Value == 16 then
+    do
+        story11()
+    end
+end
+
+if StoryProgress.Value == 17 then
+    do
+        story11()
+    end
+end
+
+if StoryProgress.Value == 18 then
+    do
+        story11()
+    end
+end
+
+if StoryProgress.Value == 19 then
+    do
+        story11()
+    end
+end
