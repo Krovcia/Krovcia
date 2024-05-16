@@ -64,9 +64,9 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -4922, 
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "TELEFARMING",
+   Name = "MEDIUM",
    Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Krovcia/Krovcia/main/Kozvi.lua'))()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 3483, 45, 8930, 0, 0, -1, 0, 1, 0, 1, 0, 0)
    end,
 })
 local Button = Tab:CreateButton({
@@ -85,6 +85,13 @@ local Button = Tab:CreateButton({
    Name = "LUCIDOUS",
    Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Krovcia/Krovcia/main/luci.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "TELEFARMING",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Krovcia/Krovcia/main/Kozvi.lua'))()
    end,
 })
 
