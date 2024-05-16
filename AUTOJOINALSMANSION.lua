@@ -150,6 +150,11 @@ function story29()
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("MapSelect"):InvokeServer(unpack(args))
 end
 
+function story291()
+    local args = {[1] = "Ready",[2] = "Star Mansion",[3] = 6,[4] = "Nightmare"}
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("MapSelect"):InvokeServer(unpack(args))
+end
+
 function story30()
     local args = {[1] = "Ready",[2] = "Super Hero City",[3] = 1,[4] = "Normal"}
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("MapSelect"):InvokeServer(unpack(args))
@@ -395,79 +400,79 @@ end
 
 if StoryProgress.Value == 30 then
     do
-        story29()
+        story291()
     end
 end
 
 if StoryProgress.Value == 31 then
     do
-        story29()
+        story291()
     end
 end
 
 if StoryProgress.Value == 32 then
     do
-        story29()
+        story291()
     end
 end
 
 if StoryProgress.Value == 33 then
     do
-        story29()
+        story291()
     end
 end
 
 if StoryProgress.Value == 34 then
     do
-        story29()
+        story291()
     end
 end
 
 if StoryProgress.Value == 35 then
     do
-        story29()
+        story291()
     end
 end
 
 if StoryProgress.Value == 36 then
     do
-        story29()
+        story291()
     end
 end
 
 if StoryProgress.Value == 37 then
     do
-        story29()
+        story291()
     end
 end
 
 if StoryProgress.Value == 38 then
     do
-        story38()
+        story291()
     end
 end
 
 if StoryProgress.Value == 39 then
     do
-        story29()
+        story291()
     end
 end
 
 if StoryProgress.Value == 40 then
     do
-        story29()
+        story291()
     end
 end
 
 if StoryProgress.Value == 41 then
     do
-        story41()
+        story291()
     end
 end
 
 
 if StoryProgress.Value == 42 then
     do
-        story41()
+        story291()
     end
 end
