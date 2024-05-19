@@ -16,14 +16,19 @@ local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Tumbal",
    Callback = function()
-while wait(5) do
+while wait(1) do
+if game:GetService("Players").LocalPlayer.Character == nil then
+wait(1)
 local VirtualInputManager = game:GetService("VirtualInputManager");
 VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 330, 0, false, game, 1)
-
+            end
+if game:GetService("Players").LocalPlayer.Character == nil then
+            else
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 728, 733, 335, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 wait(4)
 game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
+               end
          end
    end,
 })
