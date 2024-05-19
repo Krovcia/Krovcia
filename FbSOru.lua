@@ -73,6 +73,16 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 1513, 7
 local Button = Tab:CreateButton({
    Name = "Tittle",
    Callback = function()
-
+local parent = game:GetService("Players").LocalPlayer.MAIN_DATA.Titles
+local children = parent:GetChildren() 
+local num = #children
+local gui = Instance.new("ScreenGui")
+gui.Parent = game.Players.LocalPlayer.PlayerGui -- This places the GUI in the player's screen
+local Tittles = Instance.new("TextButton")
+Tittles.Parent = gui
+Tittles.Position = UDim2.new(0, 475, 0, 30)
+Tittles.Size = UDim2.new(0, 75, 0, 60)
+Tittles.TextSize = 25
+Tittles.Text = num
    end,
 })
