@@ -22,16 +22,15 @@ local Button = Tab:CreateButton({
    Callback = function()
 while wait() do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 728, 733, 335, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(2)
+game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
 end
    end,
 })
 
-local Button = Tab:CreateButton({
-   Name = "Mati",
-   Callback = function()
-game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
-   end,
-})
+
+
+
 
 local Button = Tab:CreateButton({
    Name = "Boss",
