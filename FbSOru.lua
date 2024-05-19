@@ -28,10 +28,6 @@ end
    end,
 })
 
-
-
-
-
 local Button = Tab:CreateButton({
    Name = "Boss",
    Callback = function()
