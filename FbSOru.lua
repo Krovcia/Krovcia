@@ -21,10 +21,13 @@ local Button = Tab:CreateButton({
    Name = "Tumbal",
    Callback = function()
 while wait() do
+local VirtualInputManager = game:GetService("VirtualInputManager");
+VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(500, 330, 0, false, game, 1)
+wait(3)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 728, 733, 335, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-wait(2)
+wait(4)
 game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
-end
    end,
 })
 
