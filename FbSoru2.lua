@@ -1,5 +1,5 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Krovcia/Krovcia/main/FbSOru.lua'))();
-wait(10)
+wait(30)
 while wait(1) do
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
     wait(1)
