@@ -1,1 +1,2 @@
-https://raw.githubusercontent.com/Krovcia/Krovcia/main/FbSOru.lua
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Krovcia/Krovcia/main/FbSOru.lua'))();
