@@ -1,7 +1,3 @@
-local args = {[1] = "FruitsHandler",[2] = "SwitchSlot",[3] = {["Slot"] = 2}}
-game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
-
-
 repeat wait() until game:IsLoaded()
 wait()
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
