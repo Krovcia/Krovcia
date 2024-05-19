@@ -27,11 +27,19 @@ end
 })
 
 local Button = Tab:CreateButton({
+   Name = "Mati",
+   Callback = function()
+
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Boss",
    Callback = function()
-while wait() do
+while wait(0.1) do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 724, 733, 335, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-
+    VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
+    VirtualInputManager:SendMouseButtonEvent(500, 330, 0, false, game, 1)
       end
    end,
 })
