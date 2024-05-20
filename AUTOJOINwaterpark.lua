@@ -286,47 +286,107 @@ end
 
 if StoryProgress.Value == 12 then
     do
-        story11()
+        story12()
     end
 end
 
 if StoryProgress.Value == 13 then
     do
-        story11()
+        story13()
     end
 end
 if StoryProgress.Value == 14 then
     do
-        story11()
+        story14()
     end
 end
 
 if StoryProgress.Value == 15 then
     do
-        story11()
+        story15()
     end
 end
 
 if StoryProgress.Value == 16 then
     do
-        story11()
+        story16()
     end
 end
 
 if StoryProgress.Value == 17 then
     do
-        story11()
+        story17()
     end
 end
 
 if StoryProgress.Value == 18 then
     do
-        story11()
+        story18()
     end
 end
 
 if StoryProgress.Value == 19 then
     do
-        story11()
+        story19()
+    end
+end
+
+if StoryProgress.Value == 20 then
+    do
+        story20()
+    end
+end
+
+if StoryProgress.Value == 21 then
+    do
+        story21()
+    end
+end
+
+if StoryProgress.Value == 22 then
+    do
+        story22()
+    end
+end
+
+if StoryProgress.Value == 23 then
+    do
+        story23()
+    end
+end
+
+if StoryProgress.Value == 24 then
+    do
+        story23()
+    end
+end
+
+if StoryProgress.Value == 25 then
+    do
+        story23()
+    end
+end
+
+if StoryProgress.Value == 26 then
+    do
+        story23()
+    end
+end
+
+if StoryProgress.Value == 27 then
+    do
+        story23()
+    end
+end
+
+if StoryProgress.Value == 28 then
+    do
+        story23()
+    end
+end
+
+if StoryProgress.Value == 29 then
+    do
+        story23()
     end
 end
