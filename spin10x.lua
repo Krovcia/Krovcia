@@ -1,4 +1,4 @@
-repeat wait() until game:IsLoaded()
+
 wait(5)
 local args = {
     [1] = "ALSREVAMPSOON?"
