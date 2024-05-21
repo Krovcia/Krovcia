@@ -223,6 +223,35 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Conve
 local args = {[1] = "EpicSpiritShard",[2] = "RareSpiritShard",[3] = 1}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ConvertShards"):FireServer(unpack(args))
 
+local args = {[1] = "EpicSpiritShard",[2] = "RareSpiritShard",[3] = 1}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ConvertShards"):FireServer(unpack(args))
+
+local args = {[1] = "RareSpiritShard",[2] = "CommonSpiritShard",[3] = 1}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ConvertShards"):FireServer(unpack(args))
+wait(1)
+
+local args = {[1] = "RareSpiritShard",[2] = "CommonSpiritShard",[3] = 1}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ConvertShards"):FireServer(unpack(args))
+wait(1)
+
+local args = {[1] = "RareSpiritShard",[2] = "CommonSpiritShard",[3] = 1}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ConvertShards"):FireServer(unpack(args))
+wait(1)
+
+local args = {[1] = "RareSpiritShard",[2] = "CommonSpiritShard",[3] = 1}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ConvertShards"):FireServer(unpack(args))
+wait(1)
+
+local args = {[1] = "RareSpiritShard",[2] = "CommonSpiritShard",[3] = 1}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ConvertShards"):FireServer(unpack(args))
+wait(1)
+
+local args = {[1] = "RareSpiritShard",[2] = "CommonSpiritShard",[3] = 1}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ConvertShards"):FireServer(unpack(args))
+wait(1)
+
+local args = {[1] = "RareSpiritShard",[2] = "CommonSpiritShard",[3] = 1}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ConvertShards"):FireServer(unpack(args))
 wait(1)
 
 local args = {
