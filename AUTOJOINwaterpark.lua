@@ -59,6 +59,11 @@ function story11()
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("MapSelect"):InvokeServer(unpack(args))
 end
 
+function story111()
+    local args = {[1] = "Ready",[2] = "Water Park",[3] = 6,[4] = "Nightmare"}
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("MapSelect"):InvokeServer(unpack(args))
+end
+
 function story12()
     local args = {[1] = "Ready",[2] = "Hollow Dimension",[3] = 1,[4] = "Normal"}
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("MapSelect"):InvokeServer(unpack(args))
@@ -282,111 +287,9 @@ if StoryProgress.Value == 11 then
     do
         story11()
     end
+else
+do
+story111()
 end
 
-if StoryProgress.Value == 12 then
-    do
-        story12()
-    end
-end
 
-if StoryProgress.Value == 13 then
-    do
-        story13()
-    end
-end
-if StoryProgress.Value == 14 then
-    do
-        story14()
-    end
-end
-
-if StoryProgress.Value == 15 then
-    do
-        story15()
-    end
-end
-
-if StoryProgress.Value == 16 then
-    do
-        story16()
-    end
-end
-
-if StoryProgress.Value == 17 then
-    do
-        story17()
-    end
-end
-
-if StoryProgress.Value == 18 then
-    do
-        story18()
-    end
-end
-
-if StoryProgress.Value == 19 then
-    do
-        story19()
-    end
-end
-
-if StoryProgress.Value == 20 then
-    do
-        story20()
-    end
-end
-
-if StoryProgress.Value == 21 then
-    do
-        story21()
-    end
-end
-
-if StoryProgress.Value == 22 then
-    do
-        story22()
-    end
-end
-
-if StoryProgress.Value == 23 then
-    do
-        story23()
-    end
-end
-
-if StoryProgress.Value == 24 then
-    do
-        story23()
-    end
-end
-
-if StoryProgress.Value == 25 then
-    do
-        story23()
-    end
-end
-
-if StoryProgress.Value == 26 then
-    do
-        story23()
-    end
-end
-
-if StoryProgress.Value == 27 then
-    do
-        story23()
-    end
-end
-
-if StoryProgress.Value == 28 then
-    do
-        story23()
-    end
-end
-
-if StoryProgress.Value == 29 then
-    do
-        story23()
-    end
-end
