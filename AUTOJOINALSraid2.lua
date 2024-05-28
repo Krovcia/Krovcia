@@ -1,3 +1,6 @@
+local args = {[1] = "Ready",[2] = "Marines Fort",[3] = 6}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("MapSelect"):InvokeServer(unpack(args))
+wait()
 local args = {[1] = "Ready",[2] = "Marines Fort",[3] = 5}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("MapSelect"):InvokeServer(unpack(args))
 wait()
