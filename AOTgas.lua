@@ -1,3 +1,4 @@
+while wait(1) do
 keypress(0x45)
 keypress(0x51)
 keypress(0x20)
@@ -89,3 +90,4 @@ wait(2)
 keyrelease(0x45)
 keyrelease(0x20)
 keyrelease(0x57)
+end
