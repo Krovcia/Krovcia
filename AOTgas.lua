@@ -1,4 +1,4 @@
-while wait(20) do
+while wait(10) do
 keypress(0x45)
 keypress(0x51)
 keypress(0x20)
