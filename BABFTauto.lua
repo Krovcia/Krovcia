@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "SORU",
+   Name = "TOOLS",
    Callback = function()
 local args = {[1] = "Painting Tool",[2] = 1}
 workspace:WaitForChild("ItemBoughtFromShop"):InvokeServer(unpack(args))
