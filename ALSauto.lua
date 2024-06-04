@@ -1,5 +1,41 @@
 wait(5)
 local args = {
+    [1] = "UpdateRerolls!!"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "Sorry4Delay!"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "ChooChoo"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "SUMMERSOON!?"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "QOLSprinkleUPD"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "PARTTWOUPD!?"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "QuickFixies"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "SOLOPARTTWO?!"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
+    [1] = "QuickRestart!"
+}game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
+wait()
+local args = {
     [1] = "ALSREVAMPSOON?"
 }game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimCode"):InvokeServer(unpack(args))
 wait()
