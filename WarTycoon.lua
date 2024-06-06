@@ -1,68 +1,68 @@
-if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Alpha then
+if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Alpha" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Bravo then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Bravo" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Charlie then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Charlie" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Delta then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Delta" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Echo then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Echo" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Foxtrol then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Foxtrol then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Golf then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Golf" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Hotel then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Hotel" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Kilo then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Kilo" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Lima then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Lima" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Loading then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Loading" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Omega then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Omega" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Romeo then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Romeo" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Sierra then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Sierra" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Tango then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Tango" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Victor then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Victor" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
-else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == Zulu then
+else if game:GetService("Players").LocalPlayer.leaderstats.Team.Value == "Zulu" then
 local Children = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons:GetChildren()
 local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
