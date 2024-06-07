@@ -25,7 +25,7 @@ keypress(0x20)
 wait(1)
 keyrelease(0x20)
 wait(1)
-untilgame:GetService("Workspace").Tycoon.Tycoons.Delta.PurchasedObjectCount.Value == 1
+until game:GetService("Workspace").Tycoon.Tycoons.Delta.PurchasedObjectCount.Value == 1
 end
 
 -----------------ke Oil 3----------------------
@@ -44,7 +44,7 @@ keypress(0x20)
 wait(1)
 keyrelease(0x20)
 wait(1)
-untilgame:GetService("Workspace").Tycoon.Tycoons.Delta.PurchasedObjectCount.Value == 2
+until game:GetService("Workspace").Tycoon.Tycoons.Delta.PurchasedObjectCount.Value == 2
 end
 
 
@@ -220,10 +220,11 @@ until game:GetService("Workspace").Tycoon.Tycoons.Delta.PurchasedObjectCount.Val
 end
 
 --FARM--
-if game:GetService("Workspace").Tycoon.Tycoons.Delta.PurchasedObjectCount.Value > 11 then
+if game:GetService("Workspace").Tycoon.Tycoons.Delta.PurchasedObjectCount.Value >= 11 then
 
 local Team = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons
 local Children = Team:GetChildren()
+local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Delta.Essentials.CashCollector.CFrame
 
 for i = 1, #Children do
 if Children[i].Neon.BrickColor == BrickColor.new("New Yeller") or Children[i].Neon.BrickColor == BrickColor.new("Lime green") or Children[i].Neon.BrickColor == BrickColor.new("Cyan") then
