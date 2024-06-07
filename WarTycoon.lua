@@ -1,15 +1,15 @@
 while wait(1) do
 
-local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Alpha.Essentials.CashCollector.CFrame
-local Money = game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
 if game:GetService("Workspace")["Game Systems"].CapturePoint["Captured Team"].Value ~= game:GetService("Players").LocalPlayer.leaderstats.Team.Value then
 repeat
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 70, 48, 185, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 wait(20)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Alpha.Essentials.Flag.HighPoly.CFrame
 until game:GetService("Workspace")["Game Systems"].CapturePoint["Captured Team"].Value == game:GetService("Players").LocalPlayer.leaderstats.Team.Value
 end
 
+local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Alpha.Essentials.CashCollector.CFrame
+local Money = game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
 -----------------ke Oil 2----------------------
 if game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 0 then
 
