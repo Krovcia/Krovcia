@@ -220,7 +220,7 @@ until game:GetService("Workspace").Tycoon.Tycoons.Delta.PurchasedObjectCount.Val
 end
 
 --FARM--
-if game:GetService("Workspace").Tycoon.Tycoons.Delta.PurchasedObjectCount.Value == 11 then
+if game:GetService("Workspace").Tycoon.Tycoons.Delta.PurchasedObjectCount.Value > 11 then
 
 local Team = game:GetService("Workspace").Tycoon.Tycoons.Delta.UnpurchasedButtons
 local Children = Team:GetChildren()
