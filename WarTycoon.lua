@@ -225,8 +225,53 @@ keyrelease(0x20)
 wait(1)
 until game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 11
 end
+-----------------Path 1st Floor----------------------
+if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 11 then
 
-yer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Alpha.UnpurchasedButtons["Paths Outside"].Part.CFrame
+repeat
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
+wait(1)
+until game:GetService("Workspace").Tycoon.Tycoons.Alpha.UnpurchasedButtons["Paths 1st Floor"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
+
+repeat
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Alpha.UnpurchasedButtons["Paths 1st Floor"].Part.CFrame
+wait(2)
+wait(1)
+keypress(0x20)
+wait(1)
+keyrelease(0x20)
+wait(1)
+until game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 12
+end
+-----------------Lower Path 1st Floor----------------------
+if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 12 then
+
+repeat
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
+wait(1)
+until game:GetService("Workspace").Tycoon.Tycoons.Alpha.UnpurchasedButtons["Lower Walls 1st Floor"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
+
+repeat
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Alpha.UnpurchasedButtons["Lower Walls 1st Floor"].Part.CFrame
+wait(2)
+wait(1)
+keypress(0x20)
+wait(1)
+keyrelease(0x20)
+wait(1)
+until game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 13
+end
+
+-----------------Paths Outside----------------------
+if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 13 then
+
+repeat
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
+wait(1)
+until game:GetService("Workspace").Tycoon.Tycoons.Alpha.UnpurchasedButtons["Paths Outside"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
+
+repeat
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Alpha.UnpurchasedButtons["Paths Outside"].Part.CFrame
 wait(2)
 wait(1)
 keypress(0x20)
@@ -387,12 +432,6 @@ keyrelease(0x20)
 wait(1)
 until game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 22
 end
-
-
-
-
-
-
 
 -----------------WW2 [4 Rebirths]----------------------
 if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 3 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 22 then
