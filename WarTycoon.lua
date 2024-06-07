@@ -235,7 +235,6 @@ keypress(0x20)
 wait(0.5)
 keyrelease(0x45)
 keyrelease(0x20)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Children[i].Part.CFrame
 wait(1)
 end
 end
