@@ -5,7 +5,7 @@ repeat
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 70, 48, 185, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 wait(30)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Alpha.Essentials.Flag.HighPoly.CFrame
-wait(3)
+wait(5)
 until game:GetService("Workspace")["Game Systems"].CapturePoint["Captured Team"].Value == game:GetService("Players").LocalPlayer.leaderstats.Team.Value
 end
 
