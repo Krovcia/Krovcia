@@ -581,4 +581,3 @@ game:GetService("ReplicatedStorage"):WaitForChild("RebirthEVT"):FireServer()
     
 end
 
-end
