@@ -226,7 +226,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 11
     end
     -----------------Path 1st Floor----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 11 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 11 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -244,7 +244,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 12
     end
     -----------------Lower Path 1st Floor----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 12 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 12 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -263,7 +263,7 @@ while wait(1) do
     end
     
     -----------------Paths Outside----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 13 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 13 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -282,7 +282,7 @@ while wait(1) do
     end
     
     -----------------Unlock Bunker----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 14 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 14 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -301,7 +301,7 @@ while wait(1) do
     end
     
     -----------------Unlock Bunker----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 15 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 15 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -320,7 +320,7 @@ while wait(1) do
     end
     
     -----------------Bunker Path----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 16 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 16 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -339,7 +339,7 @@ while wait(1) do
     end
     
     -----------------Bunker Oil----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 17 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 17 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -358,7 +358,7 @@ while wait(1) do
     end
     
     -----------------Bunker Oil Path----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 18 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 18 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -377,7 +377,7 @@ while wait(1) do
     end
     
     -----------------Bunker Oil Drill Bunker----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 19 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 19 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -396,7 +396,7 @@ while wait(1) do
     end
     
     -----------------Bunker Oil Drill----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 20 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 20 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -415,7 +415,7 @@ while wait(1) do
     end
     
     -----------------Bunker Oil Drill----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 21 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 1 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 21 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -434,7 +434,7 @@ while wait(1) do
     end
     
     -----------------WW2 [4 Rebirths]----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 3 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 22 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 3 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 22 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -453,7 +453,7 @@ while wait(1) do
     end
     
     -----------------Bunker Oil Drill----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 3 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 23 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 3 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 23 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -472,7 +472,7 @@ while wait(1) do
     end
     
     -----------------Bunker Oil Drill----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 3 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 24 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 3 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 24 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
@@ -491,7 +491,7 @@ while wait(1) do
     end
     
     -----------------Bunker Oil Drill----------------------
-    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths > 3 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 25 then
+    if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 3 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == 25 then
     
     repeat
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
