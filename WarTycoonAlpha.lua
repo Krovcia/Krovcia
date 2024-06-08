@@ -575,4 +575,10 @@ while wait(1) do
     end
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = MoneyColect
     end
+if game:GetService("Players").LocalPlayer.leaderstats.Rebirths.Value > 7 and game:GetService("Workspace").Tycoon.Tycoons.Alpha.PurchasedObjectCount.Value == game:GetService("Workspace").Tycoon.Tycoons.Alpha.NumberCanPurchase.Value then
+game:GetService("ReplicatedStorage"):WaitForChild("RebirthEVT"):FireServer()
+    end
+    
+end
+
 end
