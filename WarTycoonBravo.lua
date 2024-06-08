@@ -1,6 +1,6 @@
 while wait(1) do
 
-    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame
+    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame*CFrame.new(0,5,0)
     local Money = game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     -----------------ke Oil 2----------------------
     if game:GetService("Workspace").Tycoon.Tycoons.Bravo.PurchasedObjectCount.Value == 0 then
@@ -17,7 +17,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 2"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat 
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 2"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 2"].Part.CFrame*CFrame.new(0,10,0)
     wait(1)
     keypress(0x45)
     wait(2)
@@ -35,7 +35,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 3"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat 
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 3"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 3"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -55,7 +55,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 4"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat 
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 4"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 4"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -74,7 +74,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 5"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 5"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 5"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -93,7 +93,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 6"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 6"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil 6"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -112,7 +112,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 1"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 1"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 1"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -131,7 +131,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 2"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 2"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 2"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -150,7 +150,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 3"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 3"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 3"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -169,7 +169,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 4"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 4"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 4"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -188,7 +188,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 5"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 5"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 5"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -207,7 +207,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 6"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 6"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Large Oil 6"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -225,7 +225,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Paths 1st Floor"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Paths 1st Floor"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Paths 1st Floor"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -243,7 +243,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Lower Walls 1st Floor"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Lower Walls 1st Floor"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Lower Walls 1st Floor"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -262,7 +262,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Paths Outside"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Paths Outside"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Paths Outside"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -281,7 +281,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Unlock Bunker and Missile Silo [2 Rebirth]"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Unlock Bunker and Missile Silo [2 Rebirth]"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Unlock Bunker and Missile Silo [2 Rebirth]"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -300,7 +300,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Buy Bunker Start - [$80,000]"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Buy Bunker Start - [$80,000]"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Buy Bunker Start - [$80,000]"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -319,7 +319,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Bunker Path"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Bunker Path"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Bunker Path"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -338,7 +338,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Bunker Oil Drill Room"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Bunker Oil Drill Room"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Bunker Oil Drill Room"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -357,7 +357,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Bunker Oil Drill Paths"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Bunker Oil Drill Paths"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Bunker Oil Drill Paths"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -376,7 +376,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil Drill Bunker 1"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil Drill Bunker 1"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil Drill Bunker 1"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -395,7 +395,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil Drill Bunker 2"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil Drill Bunker 2"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil Drill Bunker 2"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -414,7 +414,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil Drill Bunker 3"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil Drill Bunker 3"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["Oil Drill Bunker 3"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -433,7 +433,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["WW2 [4 Rebirths]"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["WW2 [4 Rebirths]"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["WW2 [4 Rebirths]"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -452,7 +452,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["WW2 Bunker Entrance"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["WW2 Bunker Entrance"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["WW2 Bunker Entrance"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -471,7 +471,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["WW2 Bunker Path"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["WW2 Bunker Path"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["WW2 Bunker Path"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -490,7 +490,7 @@ while wait(1) do
     until game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["WW2 Gas Generator"].Price.Value < game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     
     repeat
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["WW2 Gas Generator"].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons["WW2 Gas Generator"].Part.CFrame*CFrame.new(0,10,0)
     wait(2)
     wait(1)
     keypress(0x45)
@@ -506,11 +506,11 @@ while wait(1) do
     
     local Team = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons
     local Children = Team:GetChildren()
-    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame
+    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame*CFrame.new(0,5,0)
     
     for i = 1, #Children do
     if Children[i].Neon.BrickColor == BrickColor.new("New Yeller") or Children[i].Neon.BrickColor == BrickColor.new("Lime green") or Children[i].Neon.BrickColor == BrickColor.new("Cyan") then
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Children[i].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Children[i].Part.CFrame*CFrame.new(0,10,0)
     wait()
     keypress(0x45)
     wait(2)
@@ -526,11 +526,11 @@ while wait(1) do
     
     local Team = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons
     local Children = Team:GetChildren()
-    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame
+    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame*CFrame.new(0,5,0)
     
     for i = 1, #Children do
     if Children[i].Neon.BrickColor == BrickColor.new("New Yeller") or Children[i].Neon.BrickColor == BrickColor.new("Lime green") or Children[i].Neon.BrickColor == BrickColor.new("Cyan") then
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Children[i].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Children[i].Part.CFrame*CFrame.new(0,10,0)
     wait()
     keypress(0x45)
     wait(2)
@@ -546,11 +546,11 @@ while wait(1) do
     
     local Team = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons
     local Children = Team:GetChildren()
-    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame
+    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame*CFrame.new(0,5,0)
     
     for i = 1, #Children do
     if Children[i].Neon.BrickColor == BrickColor.new("New Yeller") or Children[i].Neon.BrickColor == BrickColor.new("Lime green") or Children[i].Neon.BrickColor == BrickColor.new("Cyan") then
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Children[i].Part.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Children[i].Part.CFrame*CFrame.new(0,10,0)
     wait()
     keypress(0x45)
     wait(2)
