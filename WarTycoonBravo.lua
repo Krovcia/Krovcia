@@ -1,6 +1,6 @@
 while wait(1) do
 
-    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame*CFrame.new(0,5,0)
+    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame
     local Money = game:GetService("Players").LocalPlayer.leaderstats.Cash.Value
     -----------------ke Oil 2----------------------
     if game:GetService("Workspace").Tycoon.Tycoons.Bravo.PurchasedObjectCount.Value == 0 then
@@ -377,7 +377,7 @@ while wait(1) do
     
     local Team = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons
     local Children = Team:GetChildren()
-    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame*CFrame.new(0,5,0)
+    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame
     
     for i = 1, #Children do
     if Children[i].Neon.BrickColor == BrickColor.new("New Yeller") or Children[i].Neon.BrickColor == BrickColor.new("Lime green") or Children[i].Neon.BrickColor == BrickColor.new("Cyan") then
@@ -394,7 +394,7 @@ while wait(1) do
     
     local Team = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons
     local Children = Team:GetChildren()
-    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame*CFrame.new(0,5,0)
+    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame
     
     for i = 1, #Children do
     if Children[i].Neon.BrickColor == BrickColor.new("New Yeller") or Children[i].Neon.BrickColor == BrickColor.new("Lime green") or Children[i].Neon.BrickColor == BrickColor.new("Cyan") then
@@ -411,7 +411,7 @@ while wait(1) do
     
     local Team = game:GetService("Workspace").Tycoon.Tycoons.Bravo.UnpurchasedButtons
     local Children = Team:GetChildren()
-    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame*CFrame.new(0,5,0)
+    local MoneyColect = game:GetService("Workspace").Tycoon.Tycoons.Bravo.Essentials.CashCollector.CFrame
     
     for i = 1, #Children do
     if Children[i].Neon.BrickColor == BrickColor.new("New Yeller") or Children[i].Neon.BrickColor == BrickColor.new("Lime green") or Children[i].Neon.BrickColor == BrickColor.new("Cyan") then
