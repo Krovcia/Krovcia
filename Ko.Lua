@@ -81,7 +81,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unp
     
     Section1:AddDropdown({
         Name = "Select Fruits..",
-        List = {"Dough", "Lightning", "Leopard", "Ope", "Venom", "Nika", "DragonV2", "IceV2", "MagmaV2", "TSRubber", "Soul", "Dragon", "DarkXQuake"},
+        List = {"Dough", "Lightning", "Leopard", "Ope", "Venom", "Nika", "DragonV2", "IceV2", "MagmaV2", "TSRubber", "Soul", "Dragon", "DarkXQuake", "LightV2", "Magnet"},
         Multi = true,
         Flag = "SELECTEDFRUITS",
         Callback = function(selected)
