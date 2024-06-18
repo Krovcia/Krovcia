@@ -39,8 +39,8 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         ------------------
         wait(0.1)
         --4th Skill--
-        VirtualInputManager:SendMouseButtonEvent(400, 350, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(400, 350, 0, false, game, 1)
+        keypress(0x34)
+        keyrelease(0x34)
         -------------
         wait(0.1)
         --Activate Skill--
@@ -49,8 +49,8 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         ------------------
         wait(0.1)
         --5th Skill--
-        VirtualInputManager:SendMouseButtonEvent(470, 350, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(470, 350, 0, false, game, 1)
+        keypress(0x35)
+        keyrelease(0x35)
         -------------
         wait(0.1)
         --Activate Skill--
@@ -59,8 +59,8 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         ------------------
         wait(0.1)
         --6th Skill--
-        VirtualInputManager:SendMouseButtonEvent(530, 350, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(530, 350, 0, false, game, 1)
+        keypress(0x36)
+        keyrelease(0x36)
         -------------
         wait(0.1)
         --Activate Skill--
@@ -79,8 +79,8 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
     
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
     wait(1)
-    VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
-    VirtualInputManager:SendMouseButtonEvent(500, 330, 0, false, game, 1)
+VirtualInputManager:SendMouseButtonEvent(500, 380, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(500, 380, 0, false, game, 1)
     end
 
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false and game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible == true then
