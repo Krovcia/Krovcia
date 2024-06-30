@@ -274,6 +274,7 @@ AH64P.TextSize = 8
 AH64P.Text = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"].Value
 
 
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Ground Strike"]:GetAttribute("RequiredAmount") then
 
 
 
