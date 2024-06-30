@@ -110,8 +110,6 @@ AH64.Size = UDim2.new(0, 75, 0, 20)
 AH64.TextSize = 8
 AH64.Text = "AH64(H)"
 
-
-
 local gui = Instance.new("ScreenGui")
 gui.Parent = game.Players.LocalPlayer.PlayerGui -- This places the GUI in the player's screen
 
