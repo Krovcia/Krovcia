@@ -162,6 +162,7 @@ A10A1.Size = UDim2.new(0, 75, 0, 20)
 A10A1.TextSize = 8
 A10A1.Text = "D40GWH"
 
+while wait(3) do
 local gui = Instance.new("ScreenGui")
 gui.Parent = game.Players.LocalPlayer.PlayerGui -- This places the GUI in the player's screen
 
@@ -364,7 +365,7 @@ else
 AH64P.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-
+end
 
 
 
