@@ -276,91 +276,91 @@ AH64P.TextSize = 8
 AH64P.Text = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"].Value
 
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Ground Strike"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Ground Strike"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Ground Strike"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Ground Strike"]:GetAttribute("RequiredAmount") then
 EuroP.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 EuroP.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Firepower"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Firepower"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Firepower"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Firepower"]:GetAttribute("RequiredAmount") then
 ACP.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 ACP.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Ground Dominance"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Ground Dominance"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Ground Dominance"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Ground Dominance"]:GetAttribute("RequiredAmount") then
 PLP.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 PLP.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Takedown"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Takedown"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Takedown"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Takedown"]:GetAttribute("RequiredAmount") then
 LazarP.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 LazarP.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Armored Assault"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Armored Assault"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Armored Assault"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Armored Assault"]:GetAttribute("RequiredAmount") then
 T72P.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 T72P.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Air Support"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Air Support"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Air Support"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Air Support"]:GetAttribute("RequiredAmount") then
 A10P.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 A10P.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sky Sentinel"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sky Sentinel"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sky Sentinel"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sky Sentinel"]:GetAttribute("RequiredAmount") then
 PatriotP.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 PatriotP.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Havoc"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Havoc"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Havoc"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Havoc"]:GetAttribute("RequiredAmount") then
 KA52P.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 KA52P.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sky Shield"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sky Shield"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sky Shield"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sky Shield"]:GetAttribute("RequiredAmount") then
 ADATSP.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 ADATSP.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sky Hunter"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sky Hunter"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sky Hunter"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sky Hunter"]:GetAttribute("RequiredAmount") then
 F16P.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 F16P.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Aerial Ace"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Aerial Ace"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Aerial Ace"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Aerial Ace"]:GetAttribute("RequiredAmount") then
 MIG29P.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 MIG29P.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sea Fury"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sea Fury"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sea Fury"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sea Fury"]:GetAttribute("RequiredAmount") then
 StallionP.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 StallionP.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sea Crusher"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sea Crusher"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sea Crusher"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Sea Crusher"]:GetAttribute("RequiredAmount") then
 USSP.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 USSP.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Blowup"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Blowup"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Blowup"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Blowup"]:GetAttribute("RequiredAmount") then
 A10AP.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 A10AP.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
-if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"].Value > workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"]:GetAttribute("RequiredAmount") then
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"].Value = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"]:GetAttribute("RequiredAmount") then
 AH64P.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 AH64P.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
