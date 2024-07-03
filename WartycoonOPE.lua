@@ -22,7 +22,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Krovcia/Krovcia/main/
 local Button = Tab:CreateButton({
    Name = "TANK SHOT to GROUND (GWT WT)",
    Callback = function()
-while wait(0.2) do
+while wait(0.5) do
 local args = {
     [1] = workspace:WaitForChild("Game Systems"):WaitForChild("Tank Workspace"):WaitForChild("M4 Sherman"):WaitForChild("Misc"):WaitForChild("Turrets"):WaitForChild("Sherman Weapons"):WaitForChild("Mounted Turret1"),
     [2] = workspace:WaitForChild("Game Systems"):WaitForChild("Tank Workspace"):WaitForChild("M4 Sherman"):WaitForChild("Misc"):WaitForChild("Turrets"):WaitForChild("Sherman Weapons"):WaitForChild("Mounted Turret1"):WaitForChild("SmokePart"),
