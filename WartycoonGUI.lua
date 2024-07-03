@@ -366,9 +366,7 @@ else
 AH64P.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 wait(5)
-for _,Child in game:GetService("Players").LocalPlayer.PlayerGui:GetChildren("ScreenGui") do
-	Child:Destroy()
-end
+
 end
 
 
