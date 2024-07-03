@@ -1,4 +1,4 @@
-while wait(3) do
+while wait(1) do
 
 local gui = Instance.new("ScreenGui")
 gui.Parent = game.Players.LocalPlayer.PlayerGui -- This places the GUI in the player's screen
@@ -365,7 +365,13 @@ AH64P.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 AH64P.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
+
 wait(5)
+for _,Child in game:GetService("Players").LocalPlayer.PlayerGui:GetChildren("ScreenGui") do
+if Child.Name == "ScreenGui" then 
+Child:Destroy()
+end
+  end
 
 end
 
