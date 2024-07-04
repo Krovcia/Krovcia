@@ -37,7 +37,7 @@ while wait(1) do
 
 local buahbuah = game:GetService("Players").LocalPlayer.MAIN_DATA.Slots["1"].Value
 
-if buahbuah == "Dough" or buahbuah == "Lightning" or buahbuah == "Leopard" or buahbuah == "Ope" or buahbuah == "Venom" or buahbuah == "Nika" or buahbuah == "DragonV2" or buahbuah == "IceV2" or buahbuah == "MagmaV2" or buahbuah == "TSRubber" or buahbuah == "Soul" or buahbuah == "Dragon" or buahbuah == "DarkXQuake" then
+if buahbuah == "Dough" or buahbuah == "Lightning" or buahbuah == "Leopard" or buahbuah == "Ope" or buahbuah == "Venom" or buahbuah == "Nika" or buahbuah == "DragonV2" or buahbuah == "IceV2" or buahbuah == "MagmaV2" or buahbuah == "TSRubber" or buahbuah == "Soul" or buahbuah == "Dragon" or buahbuah == "DarkXQuake" or buahbuah == "LightV2" or buahbuah == "Magnet" or buahbuah == "FlameV2" then
 
 DAPET.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
     DAPET.Text = "YES"
