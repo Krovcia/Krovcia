@@ -19,6 +19,7 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Krovcia/Krovcia/main/WartycoonGUI.lua"))()
    end,
 })
+
 local Button = Tab:CreateButton({
    Name = "Ground Sacri",
    Callback = function()
@@ -42,6 +43,7 @@ end
 end
    end,
 })
+
 local Button = Tab:CreateButton({
    Name = "SUMMON TANK",
    Callback = function()
@@ -53,8 +55,9 @@ local args = {
     [1] = "M4 Sherman"
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TankSpawner"):FireServer(unpack(args))
-            end,
+ end,
 })
+
 local Button = Tab:CreateButton({
    Name = "TANK SHOT to GROUND (GWT WT)",
    Callback = function()
@@ -79,8 +82,9 @@ game:GetService("ReplicatedStorage"):WaitForChild("BulletFireSystem"):WaitForChi
 end
    end,
 })
+
 local Button = Tab:CreateButton({
-   Name = "PLANE SHOT to GROUND (GWP)",
+   Name = "SUMMON PLANE",
    Callback = function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -2792, 48, 222, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 wait(1)
