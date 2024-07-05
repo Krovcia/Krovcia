@@ -42,7 +42,19 @@ end
 end
    end,
 })
-
+local Button = Tab:CreateButton({
+   Name = "SUMMON TANK",
+   Callback = function()
+while wait(0.5) do
+local args = {
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -2697, 48, 460, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(2)
+local args = {
+    [1] = "M4 Sherman"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TankSpawner"):FireServer(unpack(args))
+            end,
+})
 local Button = Tab:CreateButton({
    Name = "TANK SHOT to GROUND (GWT WT)",
    Callback = function()
@@ -67,6 +79,19 @@ game:GetService("ReplicatedStorage"):WaitForChild("BulletFireSystem"):WaitForChi
 end
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "PLANE SHOT to GROUND (GWP)",
+   Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -2792, 48, 222, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(1)
+local args = {
+    [1] = "P-51 Mustang"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("SpawnPlane"):FireServer(unpack(args))
+   end,
+})
+
 local Button = Tab:CreateButton({
    Name = "PLANE SHOT to GROUND (GWP)",
    Callback = function()
