@@ -64,7 +64,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("KillC
 end
 
 if game:GetService("CoreGui").RobloxGui.Backpack.Visible == true then 
-wait(1)
+wait(2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tycoon.Tycoons.Bravo.PurchasedObjects["Small Garage"]["Lower Walls"].CFrame
 wait(1)
 local args = {[1] = "MRZR Buggy"}
@@ -88,7 +88,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("KillC
 end
 
 if game:GetService("CoreGui").RobloxGui.Backpack.Visible == true then 
-wait(1)
+wait(2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -2671, 48, -746, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 wait(1)
 local args = {
