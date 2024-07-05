@@ -67,6 +67,31 @@ end
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Heli Sacri",
+   Callback = function()
+while wait(1) do
+
+if game:GetService("CoreGui").RobloxGui.Backpack.Visible == false then
+wait(1)
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("KillCamSkipEvent"):FireServer()
+end
+
+if game:GetService("CoreGui").RobloxGui.Backpack.Visible == true then 
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -2671, 48, -746, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(1)
+local args = {
+    [1] = "UH-72B Lakota"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("SpawnHeli"):FireServer(unpack(args))
+wait(3)
+game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
+end
+
+end
+   end,
+})
 
 local Button = Tab:CreateButton({
    Name = "TANK SHOT to GROUND (GWT WT)",
