@@ -40,9 +40,9 @@ local Button = Tab:CreateButton({
    Callback = function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -2725, 48, 312, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 wait(1)
-local args = {[1] = "UH-72B Lakota"}
+local args = {
+    [1] = "AH-6 Littlebird"}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("SpawnHeli"):FireServer(unpack(args))
-
    end,
 })
 
@@ -95,6 +95,31 @@ local args = {
     [1] = "UH-72B Lakota"
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("SpawnHeli"):FireServer(unpack(args))
+wait(3)
+game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
+end
+
+end
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Boat Sacri",
+   Callback = function()
+while wait(1) do
+
+if game:GetService("CoreGui").RobloxGui.Backpack.Visible == false then
+wait(1)
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("KillCamSkipEvent"):FireServer()
+end
+
+if game:GetService("CoreGui").RobloxGui.Backpack.Visible == true then 
+wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -2949, 48, -646, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(1)
+local args = {
+    [1] = "RHIB"}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BoatSpawner"):FireServer(unpack(args))
 wait(3)
 game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
 end
