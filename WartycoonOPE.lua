@@ -25,12 +25,12 @@ local Button = Tab:CreateButton({
 while wait(1) do
 
 if game:GetService("CoreGui").RobloxGui.Backpack.Visible == false then
-wait(0.5)
+wait(1)
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("KillCamSkipEvent"):FireServer()
 end
 
 if game:GetService("CoreGui").RobloxGui.Backpack.Visible == true then 
-wait(0.5)
+wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Tycoon.Tycoons.Bravo.PurchasedObjects["Small Garage"]["Lower Walls"].CFrame
 wait(1)
 local args = {[1] = "MRZR Buggy"}
@@ -42,8 +42,6 @@ end
 end
    end,
 })
-
-
 
 local Button = Tab:CreateButton({
    Name = "TANK SHOT to GROUND (GWT WT)",
