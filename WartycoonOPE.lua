@@ -98,7 +98,7 @@ end
 local Button = Tab:CreateButton({
    Name = "PLANE SHOT to GROUND (GWP)",
    Callback = function()
-
+while wait(0.1) do
 local args = {
     [1] = workspace:WaitForChild("Game Systems"):WaitForChild("Plane Workspace"):WaitForChild("P-51 Mustang"):WaitForChild("Misc"):WaitForChild("Turrets"):WaitForChild("Mustang Weapons"):WaitForChild("Machine Guns"),
     [2] = workspace:WaitForChild("Game Systems"):WaitForChild("Plane Workspace"):WaitForChild("P-51 Mustang"):WaitForChild("Misc"):WaitForChild("Turrets"):WaitForChild("Mustang Weapons"):WaitForChild("Machine Guns"):WaitForChild("SmokePart4"),
@@ -116,6 +116,6 @@ local args = {
         ["BulletSpread"] = 1,
         ["OverheatCount"] = 150}}
 game:GetService("ReplicatedStorage"):WaitForChild("BulletFireSystem"):WaitForChild("RegisterTurretHit"):FireServer(unpack(args))
-
+         end
    end,
 })
