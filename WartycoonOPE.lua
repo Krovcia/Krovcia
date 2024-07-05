@@ -146,7 +146,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("BulletFireSystem"):WaitForChi
 })
 
 local Button = Tab:CreateButton({
-   Name = "PLANE SHOT to HELI (GWP)",
+   Name = "PLANE SHOT to HELI (HWP WP)",
    Callback = function()
 while wait(0.1) do
 local args = {
