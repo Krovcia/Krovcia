@@ -35,6 +35,16 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Spawn
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "SUMMON HELI",
+   Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -2725, 48, 312, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(1)
+local args = {[1] = "UH-72B Lakota"}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("SpawnHeli"):FireServer(unpack(args))
+
+   end,
+})
 
 local Button = Tab:CreateButton({
    Name = "GUI",
