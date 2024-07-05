@@ -104,11 +104,11 @@ local args = {
     [2] = workspace:WaitForChild("Game Systems"):WaitForChild("Plane Workspace"):WaitForChild("P-51 Mustang"):WaitForChild("Misc"):WaitForChild("Turrets"):WaitForChild("Mustang Weapons"):WaitForChild("Machine Guns"):WaitForChild("SmokePart4"),
     [3] = workspace:WaitForChild("Game Systems"):WaitForChild("Plane Workspace"):WaitForChild("P-51 Mustang"),
     [4] = {
-        ["normal"] = Vector3.new(0, 1.0000004768371582, 0),
-        ["hitPart"] = workspace:WaitForChild("Tycoon"):WaitForChild("Tycoons"):WaitForChild("Bravo"):WaitForChild("PurchasedObjects"):WaitForChild("Small Garage"):WaitForChild("Spawner"):WaitForChild("SpawnPos"),
-        ["origin"] = Vector3.new(-2550.30126953125, 52.35087203979492, -444.197509765625),
-        ["hitPoint"] = Vector3.new(-2684.292724609375, 45.53351593017578, -484.7596130371094),
-        ["direction"] = Vector3.new(-0.9518577456474304, -0.048221588134765625, -0.28814825415611267)
+        ["normal"] = Vector3.new(0.03280740976333618, 0.9993894696235657, 0.012015298008918762),
+        ["hitPart"] = workspace:WaitForChild("Game Systems"):WaitForChild("Vehicle Workspace"):WaitForChild("MRZR Buggy"):WaitForChild("Body"):WaitForChild("Collision"):WaitForChild("Collision"),
+        ["origin"] = Vector3.new(-2579.703857421875, 62.805599212646484, -447.4617919921875),
+        ["hitPoint"] = Vector3.new(-2694.9765625, 47.116031646728516, -483.3995056152344),
+        ["direction"] = Vector3.new(-0.9513418674468994, -0.12926259636878967, -0.2965930104255676)
     },
     [5] = {
         ["FireRate"] = 500,
