@@ -212,23 +212,24 @@ local Button = Tab:CreateButton({
    Callback = function()
 while wait(0.1) do
 local args = {
-    [1] = workspace:WaitForChild("Game Systems"):WaitForChild("Plane Workspace"):WaitForChild("P-51 Mustang"):WaitForChild("Misc"):WaitForChild("Turrets"):WaitForChild("Mustang Weapons"):WaitForChild("Mid Turret"),
-    [2] = workspace:WaitForChild("Game Systems"):WaitForChild("Plane Workspace"):WaitForChild("P-51 Mustang"):WaitForChild("Misc"):WaitForChild("Turrets"):WaitForChild("Mustang Weapons"):WaitForChild("Mid Turret"):WaitForChild("SmokePart"),
-    [3] = workspace:WaitForChild("Game Systems"):WaitForChild("Plane Workspace"):WaitForChild("P-51 Mustang"),
+    [1] = workspace:WaitForChild("Game Systems"):WaitForChild("Helicopter Workspace"):WaitForChild("AH-6 Littlebird"):WaitForChild("Misc"):WaitForChild("Turrets"):WaitForChild("AH Weapons"):WaitForChild("Miniguns"),
+    [2] = workspace:WaitForChild("Game Systems"):WaitForChild("Helicopter Workspace"):WaitForChild("AH-6 Littlebird"):WaitForChild("Misc"):WaitForChild("Turrets"):WaitForChild("AH Weapons"):WaitForChild("Miniguns"):WaitForChild("SmokePart2"),
+    [3] = workspace:WaitForChild("Game Systems"):WaitForChild("Helicopter Workspace"):WaitForChild("AH-6 Littlebird"),
     [4] = {
-        ["normal"] = Vector3.new(0.9209850430488586, -0.007683228701353073, 0.38952234387397766),
-        ["hitPart"] = workspace:WaitForChild("Game Systems"):WaitForChild("Helicopter Workspace"):WaitForChild("UH-72B Lakota"):WaitForChild("Parts"):WaitForChild("Collision"):WaitForChild("Collision"),
-        ["origin"] = Vector3.new(-2483.580078125, 66.65361785888672, -660.9329223632812),
-        ["hitPoint"] = Vector3.new(-2630.727294921875, 54.50291061401367, -728.257568359375),
-        ["direction"] = Vector3.new(-0.9069033265113831, -0.07477693259716034, -0.4149380326271057)
+        ["normal"] = Vector3.new(-0.9369198083877563, 0.07508537918329239, -0.34138450026512146),
+        ["hitPart"] = workspace:WaitForChild("Game Systems"):WaitForChild("Boat Workspace"):WaitForChild("RHIB"):WaitForChild("Parts"):WaitForChild("Collisions"):WaitForChild("Collision"),
+        ["origin"] = Vector3.new(-3033.489501953125, 67.8509292602539, -678.0127563476562),
+        ["hitPoint"] = Vector3.new(-2980.8447265625, 45.921531677246094, -664.5485229492188),
+        ["direction"] = Vector3.new(0.9078309535980225, -0.37807509303092957, 0.2321835607290268)
     },
     [5] = {
-        ["FireRate"] = 1000,
+        ["FireRate"] = 1500,
         ["CooldownTime"] = 4,
-        ["BulletSpread"] = 0.3,
-        ["OverheatCount"] = 45
+        ["BulletSpread"] = 1,
+        ["OverheatCount"] = 70
     }
 }
+
 game:GetService("ReplicatedStorage"):WaitForChild("BulletFireSystem"):WaitForChild("RegisterTurretHit"):FireServer(unpack(args))
          end
    end,
