@@ -206,3 +206,30 @@ game:GetService("ReplicatedStorage"):WaitForChild("BulletFireSystem"):WaitForChi
          end
    end,
 })
+
+local Button = Tab:CreateButton({
+   Name = "HELI SHOT to BOAT (BWH)",
+   Callback = function()
+while wait(0.1) do
+local args = {
+    [1] = workspace:WaitForChild("Game Systems"):WaitForChild("Plane Workspace"):WaitForChild("P-51 Mustang"):WaitForChild("Misc"):WaitForChild("Turrets"):WaitForChild("Mustang Weapons"):WaitForChild("Mid Turret"),
+    [2] = workspace:WaitForChild("Game Systems"):WaitForChild("Plane Workspace"):WaitForChild("P-51 Mustang"):WaitForChild("Misc"):WaitForChild("Turrets"):WaitForChild("Mustang Weapons"):WaitForChild("Mid Turret"):WaitForChild("SmokePart"),
+    [3] = workspace:WaitForChild("Game Systems"):WaitForChild("Plane Workspace"):WaitForChild("P-51 Mustang"),
+    [4] = {
+        ["normal"] = Vector3.new(0.9209850430488586, -0.007683228701353073, 0.38952234387397766),
+        ["hitPart"] = workspace:WaitForChild("Game Systems"):WaitForChild("Helicopter Workspace"):WaitForChild("UH-72B Lakota"):WaitForChild("Parts"):WaitForChild("Collision"):WaitForChild("Collision"),
+        ["origin"] = Vector3.new(-2483.580078125, 66.65361785888672, -660.9329223632812),
+        ["hitPoint"] = Vector3.new(-2630.727294921875, 54.50291061401367, -728.257568359375),
+        ["direction"] = Vector3.new(-0.9069033265113831, -0.07477693259716034, -0.4149380326271057)
+    },
+    [5] = {
+        ["FireRate"] = 1000,
+        ["CooldownTime"] = 4,
+        ["BulletSpread"] = 0.3,
+        ["OverheatCount"] = 45
+    }
+}
+game:GetService("ReplicatedStorage"):WaitForChild("BulletFireSystem"):WaitForChild("RegisterTurretHit"):FireServer(unpack(args))
+         end
+   end,
+})
