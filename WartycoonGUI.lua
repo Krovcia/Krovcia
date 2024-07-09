@@ -275,6 +275,47 @@ AH64P.Size = UDim2.new(0, 30, 0, 20)
 AH64P.TextSize = 8
 AH64P.Text = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"].Value
 
+local M1117 = Instance.new("TextButton")
+M1117.Parent = gui
+M1117.Position = UDim2.new(0, 700, 0, 50)
+M1117.Size = UDim2.new(0, 75, 0, 20)
+M1117.TextSize = 8
+M1117.Text = "M1117(G)"
+
+local MAUS = Instance.new("TextButton")
+MAUS.Parent = gui
+MAUS.Position = UDim2.new(0, 700, 0, 70)
+MAUS.Size = UDim2.new(0, 75, 0, 20)
+MAUS.TextSize = 8
+MAUS.Text = "MAUS(T)"
+
+local Pantsir = Instance.new("TextButton")
+Pantsir.Parent = gui
+Pantsir.Position = UDim2.new(0, 700, 0, 90)
+Pantsir.Size = UDim2.new(0, 75, 0, 20)
+Pantsir.TextSize = 8
+Pantsir.Text = "Pantsir(G)"
+
+local M11171 = Instance.new("TextButton")
+M11171.Parent = gui
+M11171.Position = UDim2.new(0, 775, 0, 50)
+M11171.Size = UDim2.new(0, 30, 0, 20)
+M11171.TextSize = 8
+M11171.Text = workspace.Tycoon.Tycoons.Alpha.Operations.ScavengeOperations["Operation Assemble"].Value
+
+local MAUS1 = Instance.new("TextButton")
+MAUS1.Parent = gui
+MAUS1.Position = UDim2.new(0, 775, 0, 70)
+MAUS1.Size = UDim2.new(0, 30, 0, 20)
+MAUS1.TextSize = 8
+MAUS1.Text = workspace.Tycoon.Tycoons.Alpha.Operations.ScavengeOperations["Operation Scavange"].Value
+
+local Pantsir1 = Instance.new("TextButton")
+Pantsir1.Parent = gui
+Pantsir1.Position = UDim2.new(0, 775, 0, 90)
+Pantsir1.Size = UDim2.new(0, 30, 0, 20)
+Pantsir1.TextSize = 8
+Pantsir1.Text = workspace.Tycoon.Tycoons.Alpha.Operations.ScavengeOperations["Operation Air Defense"].Value
 
 if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Ground Strike"].Value == workspace.Tycoon.Tycoons.Alpha.Operations["Operation Ground Strike"]:GetAttribute("RequiredAmount") then
 EuroP.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
@@ -365,6 +406,25 @@ AH64P.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
 AH64P.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
+
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"].Value == workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"]:GetAttribute("RequiredAmount") then
+M11171.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+else
+M11171.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+end
+
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"].Value == workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"]:GetAttribute("RequiredAmount") then
+Pantsir1.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+else
+Pantsir1.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+end
+
+if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"].Value == workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"]:GetAttribute("RequiredAmount") then
+AH64P.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+else
+AH64P.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+end
+
 
 wait(5)
 for _,Child in game:GetService("Players").LocalPlayer.PlayerGui:GetChildren("ScreenGui") do
