@@ -21,7 +21,7 @@ wait(2)
 VirtualInputManager:SendMouseButtonEvent(650, 450, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(650, 450, 0, false, game, 1)
 wait(5)
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 
 for _, tycoon in pairs(game:GetService("Workspace").Tycoon.Tycoons:GetChildren()) do
     if tycoon:FindFirstChild("Owner") and tostring(tycoon.Owner.Value) == game:GetService("Players").LocalPlayer.Name then
