@@ -420,9 +420,9 @@ Pantsir1.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
 if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"].Value == workspace.Tycoon.Tycoons.Alpha.Operations["Operation Chopper"]:GetAttribute("RequiredAmount") then
-AH64P.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+MAUS1.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
-AH64P.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+MAUS1.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
 
