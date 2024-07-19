@@ -177,55 +177,55 @@ Lucidus.TextSize = 8
 Lucidus.Text = "Lucidus"
 
 for _, sword in pairs(game:GetService("Players").LocalPlayer.Inventory:GetChildren()) do
-if sword == "Muramasa" then
+if sword.Name == "Muramasa" then
 Muramasa.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Acroscythe" then
+if sword.Name == "Acroscythe" then
 Acroscythe.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Longaevus" then
+if sword.Name == "Longaevus" then
 Longaevus.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Saber" then
+if sword.Name == "Saber" then
 Saber.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Dragon Standard" then
+if sword.Name == "Dragon Standard" then
 DStandard.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Phoenix Blade" then
+if sword.Name == "Phoenix Blade" then
 PhoenixB.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Hell Sword" then
+if sword.Name == "Hell Sword" then
 HellSword.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "CookieSword" then
+if sword.Name == "CookieSword" then
 CookieSword.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Metal Trident" then
+if sword.Name == "Metal Trident" then
 MetalTrident.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Soul Cane" then
+if sword.Name == "Soul Cane" then
 SoulCane.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Apollo" then
+if sword.Name == "Apollo" then
 Apollos.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Adventure Knife" then
+if sword.Name == "Adventure Knife" then
 Advknife.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Anubis Axe" then
+if sword.Name == "Anubis Axe" then
 Anubis.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Sunken Blade" then
+if sword.Name == "Sunken Blade" then
 SunkenBlade.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Pondere Blade" then
+if sword.Name == "Pondere Blade" then
 PondereB.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword == "Authentic Triple Katana" then
+if sword.Name == "Authentic Triple Katana" then
 ATK.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "Avalon" then
+if sword.Name = "Avalon" then
 Avalon.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
     end
