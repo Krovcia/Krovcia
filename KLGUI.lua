@@ -176,4 +176,56 @@ Lucidus.Size = UDim2.new(0, 75, 0, 20)
 Lucidus.TextSize = 8
 Lucidus.Text = "Lucidus"
 
-
+for _, sword in pairs(game:GetService("Players").LocalPlayer.Inventory:GetChildren()) do
+if sword == "Muramasa" then
+Muramasa.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Acroscythe" then
+Acroscythe.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Longaevus" then
+Longaevus.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Saber" then
+Saber.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Dragon Standard" then
+DStandard.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Phoenix Blade" then
+PhoenixB.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Hell Sword" then
+HellSword.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "CookieSword" then
+CookieSword.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Metal Trident" then
+MetalTrident.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Soul Cane" then
+SoulCane.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Apollo" then
+Apollos.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Adventure Knife" then
+Advknife.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Anubis Axe" then
+Anubis.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Sunken Blade" then
+SunkenBlade.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Pondere Blade" then
+PondereB.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword == "Authentic Triple Katana" then
+ATK.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+if sword = "Avalon" then
+Avalon.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+end
+    end
