@@ -207,7 +207,7 @@ end
 if sword.Name == "Soul Cane" then
 SoulCane.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword.Name == "Apollo" then
+if sword.Name == "Apollos" then
 Apollos.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 if sword.Name == "Adventure Knife" then
