@@ -225,7 +225,7 @@ end
 if sword == "ATK" then
 ATK.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "Avalon" then
+if sword == "Avalon" then
 Avalon.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
     end
