@@ -177,52 +177,52 @@ Lucidus.TextSize = 8
 Lucidus.Text = "Lucidus"
 
 for _, sword in pairs(game:GetService("Players").LocalPlayer.Inventory:GetChildren()) do
-if sword = "Muramasa" then
+if sword == "Muramasa" then
 Muramasa.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "Acroscythe" then
+if sword == "Acroscythe" then
 Acroscythe.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "Longaevus" then
+if sword == "Longaevus" then
 Longaevus.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "Saber" then
+if sword == "Saber" then
 Saber.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "DStandard" then
+if sword == "DStandard" then
 DStandard.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "PhoenixB" then
+if sword == "PhoenixB" then
 PhoenixB.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "HellSword" then
+if sword == "HellSword" then
 HellSword.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "CookieSword" then
+if sword == "CookieSword" then
 CookieSword.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "MetalTrident" then
+if sword == "MetalTrident" then
 MetalTrident.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "SoulCane" then
+if sword == "SoulCane" then
 SoulCane.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "Apollos" then
+if sword == "Apollos" then
 Apollos.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "Advknife" then
+if sword == "Advknife" then
 Advknife.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "Anubis" then
+if sword == "Anubis" then
 Anubis.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "SunkenBlade" then
+if sword == "SunkenBlade" then
 SunkenBlade.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "PondereB" then
+if sword == "PondereB" then
 PondereB.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword = "ATK" then
+if sword == "ATK" then
 ATK.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 if sword = "Avalon" then
