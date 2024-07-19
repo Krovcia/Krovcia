@@ -1,3 +1,5 @@
+while wait(1) do
+
 local gui = Instance.new("ScreenGui")
 gui.Parent = game.Players.LocalPlayer.PlayerGui -- This places the GUI in the player's screen
 
@@ -264,4 +266,11 @@ Lucidus.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 
 end
+wait(10)
+for _,Child in game:GetService("Players").LocalPlayer.PlayerGui:GetChildren("ScreenGui") do
+if Child.Name == "ScreenGui" then 
+Child:Destroy()
+end
+  end
 
+end
