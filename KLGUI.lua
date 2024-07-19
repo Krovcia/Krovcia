@@ -198,7 +198,7 @@ end
 if sword.Name == "Hell Sword" then
 HellSword.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword.Name == "CookieSword" then
+if sword.Name == "Cookie Sword" then
 CookieSword.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 if sword.Name == "Metal Trident" then
