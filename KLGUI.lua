@@ -231,38 +231,38 @@ end
     end
 
 for _, Acces in pairs(game:GetService("Players").LocalPlayer.Accessories:GetChildren()) do
-if Acces == "Biscuit Shoulder" then
+if Acces.Name == "Biscuit Shoulder" then
 BShoulder.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 
-if Acces == "Blue Scarf" then
+if Acces.Name == "Blue Scarf" then
 BlueScarf.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 
 
-if Acces == "Sally Crown" then
+if Acces.Name == "Sally Crown" then
 SallyCrown.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 
-if Acces == "Floffy Glasses" then
+if Acces.Name == "Floffy Glasses" then
 FloffyG.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 
 
-if Acces == "Pondere Coat" then
+if Acces.Name == "Pondere Coat" then
 PondereC.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 
 
-if Acces == "Tengu Mask" then
+if Acces.Name == "Tengu Mask" then
 TenguMask.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 
-if Acces == "Oni Mask" then
+if Acces.Name == "Oni Mask" then
 OniMask.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 
-if Acces == "Lucidus Coat" then
+if Acces.Name == "Lucidus Coat" then
 Lucidus.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 
