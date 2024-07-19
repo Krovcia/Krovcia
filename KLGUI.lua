@@ -239,7 +239,6 @@ if Acces.Name == "Blue Scarf" then
 BlueScarf.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 
-
 if Acces.Name == "Sally Crown" then
 SallyCrown.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
@@ -248,11 +247,9 @@ if Acces.Name == "Floffy Glasses" then
 FloffyG.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 
-
 if Acces.Name == "Pondere Coat" then
 PondereC.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-
 
 if Acces.Name == "Tengu Mask" then
 TenguMask.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
