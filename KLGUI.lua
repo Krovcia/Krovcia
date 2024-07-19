@@ -182,7 +182,7 @@ for _, sword in pairs(game:GetService("Players").LocalPlayer.Inventory:GetChildr
 if sword.Name == "Muramasa" then
 Muramasa.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
-if sword.Name == "Acroscythe" then
+if sword.Name == "Acroscyth" then
 Acroscythe.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 if sword.Name == "Longaevus" then
