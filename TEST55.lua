@@ -86,8 +86,6 @@ VirtualInputManager:SendMouseButtonEvent(500, 380, 0, false, game, 1)
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false and game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible == true then
     game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible = false
     end
-local TPoneH = game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Level.Text
-local TPoneH = tonumber(TPoneH)
 
 end
 
