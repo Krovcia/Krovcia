@@ -6,7 +6,14 @@ if placeId == 12886143095 then
 while wait(5) do
 
 local StoryProgress = game:GetService("Players").LocalPlayer.StoryProgress
-
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -34, 4, -136, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -34, 4, -156, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 20, 4, -157, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 20, 4, -134, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -34, 4, -111, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 wait(2)
 
