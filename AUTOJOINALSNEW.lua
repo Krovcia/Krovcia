@@ -2,8 +2,8 @@
 repeat wait() until game:IsLoaded()
 wait(5)
 local placeId = game.PlaceId
-
-while placeId == 12886143095 do
+if placeId == 12886143095 then
+while wait(5) do
 
 local StoryProgress = game:GetService("Players").LocalPlayer.StoryProgress
 
@@ -355,4 +355,5 @@ wait(1)
 local args = {[1] = "Skip"}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Teleporter"):WaitForChild("Interact"):FireServer(unpack(args))
 
+end
 end
