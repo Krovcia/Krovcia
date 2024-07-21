@@ -229,32 +229,32 @@ end
 
 if StoryProgress.Value == 42 then
 wait(1)
-local args = {[1] = "Snomy Domain",[2] = 1,[3] = "Normal",[4] = false}
+local args = {[1] = "Snowy Domain",[2] = 1,[3] = "Normal",[4] = false}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Story"):WaitForChild("Select"):InvokeServer(unpack(args))
 end
 if StoryProgress.Value == 43 then
 wait(1)
-local args = {[1] = "Snomy Domain",[2] = 2,[3] = "Normal",[4] = false}
+local args = {[1] = "Snowy Domain",[2] = 2,[3] = "Normal",[4] = false}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Story"):WaitForChild("Select"):InvokeServer(unpack(args))
 end
 if StoryProgress.Value == 44 then
 wait(1)
-local args = {[1] = "Snomy Domain",[2] = 3,[3] = "Normal",[4] = false}
+local args = {[1] = "Snowy Domain",[2] = 3,[3] = "Normal",[4] = false}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Story"):WaitForChild("Select"):InvokeServer(unpack(args))
 end
 if StoryProgress.Value == 45 then
 wait(1)
-local args = {[1] = "Snomy Domain",[2] = 4,[3] = "Normal",[4] = false}
+local args = {[1] = "Snowy Domain",[2] = 4,[3] = "Normal",[4] = false}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Story"):WaitForChild("Select"):InvokeServer(unpack(args))
 end
 if StoryProgress.Value == 46 then
 wait(1)
-local args = {[1] = "Snomy Domain",[2] = 5,[3] = "Normal",[4] = false}
+local args = {[1] = "Snowy Domain",[2] = 5,[3] = "Normal",[4] = false}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Story"):WaitForChild("Select"):InvokeServer(unpack(args))
 end
 if StoryProgress.Value == 47 then
 wait(1)
-local args = {[1] = "Snomy Domain",[2] = 6,[3] = "Normal",[4] = false}
+local args = {[1] = "Snowy Domain",[2] = 6,[3] = "Normal",[4] = false}
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Story"):WaitForChild("Select"):InvokeServer(unpack(args))
 end
 
