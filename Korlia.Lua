@@ -95,6 +95,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Krovcia/Krovcia/main/
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "BlackBeard",
+   Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -9526, 59, -4861, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+   end,
+})
 
 
 
