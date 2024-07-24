@@ -102,6 +102,13 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -9526, 
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "SB V2",
+   Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 4540, 47, 116211, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+   end,
+})
+
 
 
 
