@@ -16,6 +16,10 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         --Activate Skill--
         VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
         VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
+        wait(0.1)
+        --Activate Skill--
+        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
         ------------------
         wait(0.1)
         --Keypress 2--
