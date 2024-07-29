@@ -72,7 +72,11 @@ VirtualInputManager:SendMouseButtonEvent(500, 380, 0, false, game, 1)
     elseif game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true and game:GetService("Players").LocalPlayer.Character.Stats:GetAttribute("Stamina") < 50 then
         game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
     end
-    
+
+    if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true and game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible == false then
+        game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible = true     
+    end    
+
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
     wait(1)
 VirtualInputManager:SendMouseButtonEvent(500, 380, 0, true, game, 1)
