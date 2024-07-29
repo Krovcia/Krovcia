@@ -48,4 +48,11 @@ if game:GetService("Players").LocalPlayer.Character == nil then
     Servertime.Text = game:GetService("Players").LocalPlayer.PlayerGui.UI.Info.ServerTime.Text
     BossKill.Text = game:GetService("Players").LocalPlayer.MAIN_DATA.BossKills.Value
 end
+
+wait(10)
+for _,Child in game:GetService("Players").LocalPlayer.PlayerGui:GetChildren("ScreenGui") do
+if Child.Name == "ScreenGui" then 
+Child:Destroy()
+end
+
 end
