@@ -41,7 +41,7 @@ Servertime.Position = UDim2.new(0, 400, 0, 0)
 Servertime.TextSize = 10
 Servertime.Size = UDim2.new(0, 150, 0, 20)
 
-while wait(1) do
+while wait(5) do
 
 if game:GetService("Players").LocalPlayer.Character == nil then
     elseif game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
