@@ -18,8 +18,8 @@ function MarcoOn()
     local y = tonumber(y)
     wait(0.1)
     if y > 10 and y < 500 then
-        VirtualInputManager:SendMouseButtonEvent(500, 230, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(500, 230, 0, false, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 260, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 260, 0, false, game, 1)
     end
 end
 
