@@ -317,12 +317,12 @@ Pantsir1.Size = UDim2.new(0, 30, 0, 20)
 Pantsir1.TextSize = 8
 Pantsir1.Text = workspace.Tycoon.Tycoons.Alpha.Operations.ScavengeOperations["Operation Air Defense"].Value
 
-local Invi = Instance.new("TextButton")
-Invi.Parent = gui
-Invi.Position = UDim2.new(0, 175, 0, 385)
-Invi.Size = UDim2.new(0, 30, 0, 20)
-Invi.TextSize = 8
-Invi.Text = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Rotor Fury"].Value
+local Invi1 = Instance.new("TextButton")
+Invi1.Parent = gui
+Invi1.Position = UDim2.new(0, 175, 0, 385)
+Invi1.Size = UDim2.new(0, 30, 0, 20)
+Invi1.TextSize = 8
+Invi1.Text = workspace.Tycoon.Tycoons.Alpha.Operations["Operation Rotor Fury"].Value
 
 local Invi = Instance.new("TextButton")
 Invi.Parent = gui
@@ -338,9 +338,9 @@ EuroP.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
 if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Rotor Fury"].Value == workspace.Tycoon.Tycoons.Alpha.Operations["Operation Rotor Fury"]:GetAttribute("RequiredAmount") then
-Invi.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+Invi1.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 else
-Invi.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+Invi1.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 end
 
 if workspace.Tycoon.Tycoons.Alpha.Operations["Operation Firepower"].Value == workspace.Tycoon.Tycoons.Alpha.Operations["Operation Firepower"]:GetAttribute("RequiredAmount") then
