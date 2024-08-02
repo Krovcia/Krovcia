@@ -14,20 +14,20 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         --------------
         wait(0.1)
         --Activate Skill--
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, false, game, 1)
         wait(0.1)
         --Activate Skill--
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, false, game, 1)
         wait(0.1)
         --Activate Skill--
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, false, game, 1)
         wait(0.1)
         --Activate Skill--
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, false, game, 1)
         ------------------
         wait(0.1)
         --Keypress 2--
@@ -36,8 +36,8 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         --------------
         wait(0.1)
         --Activate Skill--
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, false, game, 1)
         ------------------
         wait(0.1)
         --Keypress 3--
@@ -46,8 +46,8 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         --------------
         wait(0.1)
         --Activate Skill--
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, false, game, 1)
         ------------------
         wait(0.1)
         --4th Skill--
@@ -56,8 +56,8 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         -------------
         wait(0.1)
         --Activate Skill--
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, false, game, 1)
         ------------------
         wait(0.1)
         --5th Skill--
@@ -66,8 +66,8 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         -------------
         wait(0.1)
         --Activate Skill--
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, false, game, 1)
         ------------------
         wait(0.1)
         --6th Skill--
@@ -76,8 +76,8 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         -------------
         wait(0.1)
         --Activate Skill--
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, true, game, 1)
-        VirtualInputManager:SendMouseButtonEvent(500, 400, 0, false, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, true, game, 1)
+        VirtualInputManager:SendMouseButtonEvent(500, 300, 0, false, game, 1)
     end
 
     if game:GetService("Players").LocalPlayer.Character == nil then
