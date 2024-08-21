@@ -26,8 +26,6 @@ VirtualInputManager:SendMouseButtonEvent(500, 330, 0, false, game, 1)
 if game:GetService("Players").LocalPlayer.Character == nil then
             else
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 728, 733, 335, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-wait(4)
-game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
                end
          end
    end,
