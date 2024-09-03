@@ -1,24 +1,38 @@
 --MARCO GUI REPEAT--
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+    local Player = game.Players.LocalPlayer
+    local lib = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
+    local subs = lib.subs 
+    local libclose = subs.Wait
+    
+    local window = lib:CreateWindow({
+        Name = "Kontol | KontolBerkaki",
+        Themeable = {
+            Info = {"Iyatah"},
+            Credit = false, 
+            Background = "",
+            Visible = true
+        }
+    })
+    
+    local main1 = window:CreateTab({
+        Name = "Main"
+    })
+    
+    local Section1 = main1:CreateSection({
+        Name = "ROLLBACK"
+    })
 
-local Tab = Window:MakeTab({
-	Name = "Tab 1",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-	Name = "Section"
-})
-
-Tab:AddButton({
-	Name = "Button!",
-	Callback = function()
-local VirtualInputManager = game:GetService("VirtualInputManager");
-while wait(0.1) do
+    Section1:AddButton({
+        Name = "-------------------------Markontol----------------------------",
+        Value = false,
+        Flag = "SPIN",
+        Callback = function(state)
+            SPIN = state 
+            while SPIN and libclose() do 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Characters.NPCs.Marco.Attire.Torso.ClothingTorso.CFrame
-end
-  	end    
-})
+                task.wait()
+            end 
+        end 
+    })
+
