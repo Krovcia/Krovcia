@@ -46,6 +46,25 @@ game.StarterGui:SetCoreGuiEnabled(2, true)
         --------------
 --------------------------------------------------------------------
 wait(0.1)
+local VirtualInputManager = game:GetService("VirtualInputManager");       
+VirtualInputManager:SendMouseButtonEvent(460, 420, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(460, 420, 0, false, game, 1)
+wait(0.1)     
+VirtualInputManager:SendMouseButtonEvent(530, 500, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(530, 500, 0, false, game, 1)
+wait(0.1)      
+VirtualInputManager:SendMouseButtonEvent(530, 420, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(530, 420, 0, false, game, 1)
+wait(0.1)     
+VirtualInputManager:SendMouseButtonEvent(530, 500, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(530, 500, 0, false, game, 1)
+wait(0.1)     
+VirtualInputManager:SendMouseButtonEvent(600, 420, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(600, 420, 0, false, game, 1)
+wait(0.1)       
+VirtualInputManager:SendMouseButtonEvent(530, 500, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(530, 500, 0, false, game, 1)
+wait(0.1)
 --------------------------------------------------------------------
         --Activate Skill--
         VirtualInputManager:SendMouseButtonEvent(500, 300, 0, true, game, 1)
