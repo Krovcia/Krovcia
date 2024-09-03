@@ -17,7 +17,7 @@ function MarcoOn()
     local y = string.gsub(z, ":", "")
     local y = tonumber(y)
     wait(0.1)
-    if y > 10 and y < 500 then
+    if y > 10 and y < 30 then
         VirtualInputManager:SendMouseButtonEvent(500, 260, 0, true, game, 1)
         VirtualInputManager:SendMouseButtonEvent(500, 260, 0, false, game, 1)
     end
