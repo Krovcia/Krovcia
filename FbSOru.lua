@@ -16,6 +16,7 @@ local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Tumbal",
    Callback = function()
+local VirtualInputManager = game:GetService("VirtualInputManager")
 VirtualInputManager:SendMouseButtonEvent(500, 380, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 380, 0, false, game, 1)
 wait(3)
