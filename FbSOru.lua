@@ -19,6 +19,7 @@ local Button = Tab:CreateButton({
 while wait(1) do
 if game:GetService("Players").LocalPlayer.Character == nil and game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
     wait(1)
+local VirtualInputManager = game:GetService("VirtualInputManager");
 VirtualInputManager:SendMouseButtonEvent(500, 380, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 380, 0, false, game, 1)
 wait(3)
