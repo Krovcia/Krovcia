@@ -38,7 +38,7 @@ local Button = Tab:CreateButton({
    Callback = function()
 while wait(0.5) do
 local VirtualInputManager = game:GetService("VirtualInputManager");
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 724, 733, 335, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -1248, 696, -917, 0, 0, -1, 0, 1, 0, 1, 0, 0) 
     VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
     VirtualInputManager:SendMouseButtonEvent(500, 330, 0, false, game, 1)
       end
