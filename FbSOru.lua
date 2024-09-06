@@ -18,14 +18,10 @@ local Button = Tab:CreateButton({
    Callback = function()
 while wait(1) do
 if game:GetService("Players").LocalPlayer.Character == nil and game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false then
-    wait(1)
+wait(1)
 local VirtualInputManager = game:GetService("VirtualInputManager");
 VirtualInputManager:SendMouseButtonEvent(500, 380, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 380, 0, false, game, 1)
-wait(3)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -1244, 696, -917, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-wait(3)
-game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
             else
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -1244, 696, -917, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 wait(3)
