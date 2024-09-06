@@ -27,7 +27,7 @@ if game:GetService("Players").LocalPlayer.Character == nil then
             else
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -1244, 696, -917, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 wait(3)
-
+game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
                end
          end
    end,
