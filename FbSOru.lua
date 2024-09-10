@@ -27,7 +27,20 @@ game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
 })
 
 local Button = Tab:CreateButton({
-   Name = "Boss",
+   Name = "Tumbal2",
+   Callback = function()
+local VirtualInputManager = game:GetService("VirtualInputManager")
+VirtualInputManager:SendMouseButtonEvent(500, 380, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(500, 380, 0, false, game, 1)
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -1251, 696, -878, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(3)
+game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Boss2",
    Callback = function()
 while wait(0.5) do
 local VirtualInputManager = game:GetService("VirtualInputManager");
