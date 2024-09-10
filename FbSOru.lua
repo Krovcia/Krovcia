@@ -39,6 +39,18 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -1248, 
 })
 
 local Button = Tab:CreateButton({
+   Name = "Boss",
+   Callback = function()
+while wait(0.5) do
+local VirtualInputManager = game:GetService("VirtualInputManager");
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -1255, 696, -879, 0, 0, -1, 0, 1, 0, 1, 0, 0) 
+    VirtualInputManager:SendMouseButtonEvent(500, 330, 0, true, game, 1)
+    VirtualInputManager:SendMouseButtonEvent(500, 330, 0, false, game, 1)
+      end
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Slot 1",
    Callback = function()
 local args = {[1] = "FruitsHandler",[2] = "SwitchSlot",[3] = {["Slot"] = 1}}
