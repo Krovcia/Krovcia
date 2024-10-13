@@ -1,4 +1,4 @@
-local AttackOrder1 = {"4D32A0", "4D32C7", "4D32DD", "4D3306", "4D331E", "4D332D", "4D3364", "4D3376", "4D338A", "4D3393", "B594A", "5E37B", "3D821", "CA9D4", "4D333E", "4D328F"} 
+local AttackOrder1 = {"4D3279", "4D333E", "4D328F", "4D32A0", "4D32C7", "4D32DD", "4D3306", "4D332D", "4D3364", "4D3376", "4D338A", "4D3393", "4D71CE", "4D71D6", "4D71E9", "4D71F6", "4D720A", "4D7211", "4D7220", "4D727E", "4D728B", "4D7292", "4D729D", "4D72AD", "4D72B7", "4D72C2", "4D72CD"} 
 local random1 = AttackOrder1[math.random(1,#AttackOrder1)]
 
 local VirtualInputManager = game:GetService("VirtualInputManager")
