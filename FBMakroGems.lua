@@ -102,6 +102,9 @@ VirtualInputManager:SendMouseButtonEvent(500, 380, 0, false, game, 1)
     wait(1)
 VirtualInputManager:SendMouseButtonEvent(500, 380, 0, true, game, 1)
 VirtualInputManager:SendMouseButtonEvent(500, 380, 0, false, game, 1)
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(50, 50, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(50, 50, 0, false, game, 1)
     end
 
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == false and game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Visible == true then
