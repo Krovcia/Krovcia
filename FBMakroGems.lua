@@ -5,8 +5,8 @@ while wait(0.1) do
 
     if game:GetService("Players").LocalPlayer.PlayerGui.UI.HUD.Visible == true then
         wait(0.1)
-VirtualInputManager:SendMouseButtonEvent(400, 110, 0, true, game, 1)
-VirtualInputManager:SendMouseButtonEvent(400, 110, 0, false, game, 1)
+VirtualInputManager:SendMouseButtonEvent(400, 120, 0, true, game, 1)
+VirtualInputManager:SendMouseButtonEvent(400, 120, 0, false, game, 1)
 game.StarterGui:SetCoreGuiEnabled(2, true)  
         --Keypress 1--
         keypress(0x31)
