@@ -1,35 +1,55 @@
 repeat task.wait() until game:IsLoaded()
 
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="670AHH"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="810TIME!"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="POW680K!"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="BIG8HUNDO!"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="UNLOCK690K!"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="SHINE790K"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="3LAPSED!"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="GLITTER780K"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="BIGB1RD"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="4BUNDANCY"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="SCORCHINGSUMMER"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="OMGREBOOTAGAIN"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="SORRYMOBILE"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="NANAP0CALYPSE!"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait()
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="BAM700K"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="770KWOW!"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait(1)
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="RIGHT720"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="760KISKRAZY"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
 wait(1)
-local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="710KOMG!!"}}
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="750KINSANE!"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
-
+wait(1)
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="SORRY4DELAY"}}
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+wait(1)
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="NEWBOUNTYERA!"}}
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+wait(1)
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="HOWLINGFALL!"}}
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+wait(1)
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="LVLBUFFHYPE"}}
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+wait(1)
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="HOWLINGFALL!"}}
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+wait(1)
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="NEWBOUNTYERA!"}}
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+wait(1)
+local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="SORRY4DELAY"}}
+game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
     local Player = game.Players.LocalPlayer
     local lib = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
     local subs = lib.subs 
@@ -90,7 +110,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unp
     
     Section1:AddDropdown({
         Name = "Select Fruits..",
-        List = {"Dough", "Lightning", "Leopard", "Ope", "Venom", "Nika", "DragonV2", "IceV2", "MagmaV2", "TSRubber", "Soul", "Dragon", "DarkXQuake", "LightV2", "Magnet", "FlameV2"},
+        List = {"Dough", "Lightning", "Leopard", "Ope", "Venom", "Nika", "DragonV2", "IceV2", "MagmaV2", "TSRubber", "Soul", "Dragon", "DarkXQuake", "LightV2", "Magnet", "FlameV2", "Okuchi"},
         Multi = true,
         Flag = "SELECTEDFRUITS",
         Callback = function(selected)
