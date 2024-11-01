@@ -1,4 +1,4 @@
-repeat task.wait() until game:IsLoaded()
+
 
 local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="810TIME!"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
@@ -50,6 +50,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unp
 wait(1)
 local args = {[1]="Codes",[2]="Redeem",[3]={["Code"]="SORRY4DELAY"}}
 game:GetService("ReplicatedStorage"):WaitForChild("Replicator"):InvokeServer(unpack(args))
+
     local Player = game.Players.LocalPlayer
     local lib = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
     local subs = lib.subs 
