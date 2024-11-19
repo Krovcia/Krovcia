@@ -1,4 +1,4 @@
-while wait(1) do
+while wait(0.1) do
 
 local gui = Instance.new("ScreenGui")
 gui.Parent = game.Players.LocalPlayer.PlayerGui -- This places the GUI in the player's screen
