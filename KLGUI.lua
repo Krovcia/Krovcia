@@ -266,7 +266,7 @@ Lucidus.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 end
 
 end
-wait(10)
+wait(0.1)
 for _,Child in game:GetService("Players").LocalPlayer.PlayerGui:GetChildren("ScreenGui") do
 if Child.Name == "ScreenGui" then 
 Child:Destroy()
