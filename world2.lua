@@ -40,6 +40,14 @@ w:Button("RIGHT SHIFT", function()
            
             Explorer = game:GetService("Players").LocalPlayer.Data.Items.ExplorerGachaToken
            
+            Heart = game:GetService("Players").LocalPlayer.Data.Plushies.Heart
+
+            Rosevine = game:GetService("Players").LocalPlayer.Data.Plushies.Rosevine
+
+            Heartsnake = game:GetService("Players").LocalPlayer.Data.Plushies.Heartsnake
+   
+            Swan = game:GetService("Players").LocalPlayer.Data.Plushies.Swan
+
             Mushvalue = game:GetService("Players").LocalPlayer.Data.Coins.Value
            
             TradeCheck = game:GetService("Players").LocalPlayer.PlayerGui.TradeGui.ContainerFrame.Yours.OffersFrame.ScrollingFrame["8"]
@@ -148,6 +156,58 @@ w:Button("RIGHT SHIFT", function()
                    end
            wait(1)
            
+                   if Heart.Value < 26 and Heart.Value > 0 then 
+                    local args = {[1] = "AddTradeItem",[2] = {["Overwrite"] = true,["ItemType"] = "Plushies",
+                    ["Name"] = Heart.Name,
+                    ["Amount"] = Heart.Value}}              
+                    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild(TradeTrack):InvokeServer(unpack(args))
+                   elseif Heart.Value > 25 then
+                    local args = {[1] = "AddTradeItem",[2] = {["Overwrite"] = true,["ItemType"] = "Plushies",
+                    ["Name"] = Heart.Name,
+                    ["Amount"] = 25}}              
+                    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild(TradeTrack):InvokeServer(unpack(args))
+                   end
+           wait(1)
+           
+                    if Heartsnake.Value < 26 and Heartsnake.Value > 0 then 
+                        local args = {[1] = "AddTradeItem",[2] = {["Overwrite"] = true,["ItemType"] = "Plushies",
+                        ["Name"] = Heartsnake.Name,
+                        ["Amount"] = Heartsnake.Value}}              
+                        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild(TradeTrack):InvokeServer(unpack(args))
+                    elseif Heartsnake.Value > 25 then
+                        local args = {[1] = "AddTradeItem",[2] = {["Overwrite"] = true,["ItemType"] = "Plushies",
+                        ["Name"] = Heartsnake.Name,
+                        ["Amount"] = 25}}              
+                        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild(TradeTrack):InvokeServer(unpack(args))
+                    end
+            wait(1)
+
+            if Rosevine.Value < 26 and Rosevine.Value > 0 then 
+                local args = {[1] = "AddTradeItem",[2] = {["Overwrite"] = true,["ItemType"] = "Plushies",
+                ["Name"] = Rosevine.Name,
+                ["Amount"] = Rosevine.Value}}              
+                game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild(TradeTrack):InvokeServer(unpack(args))
+            elseif Rosevine.Value > 25 then
+                local args = {[1] = "AddTradeItem",[2] = {["Overwrite"] = true,["ItemType"] = "Plushies",
+                ["Name"] = Rosevine.Name,
+                ["Amount"] = 25}}              
+                game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild(TradeTrack):InvokeServer(unpack(args))
+            end
+            wait(1)
+
+            if Swan.Value < 26 and Swan.Value > 0 then 
+                local args = {[1] = "AddTradeItem",[2] = {["Overwrite"] = true,["ItemType"] = "Plushies",
+                ["Name"] = Swan.Name,
+                ["Amount"] = Swan.Value}}              
+                game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild(TradeTrack):InvokeServer(unpack(args))
+            elseif Swan.Value > 25 then
+                local args = {[1] = "AddTradeItem",[2] = {["Overwrite"] = true,["ItemType"] = "Plushies",
+                ["Name"] = Swan.Name,
+                ["Amount"] = 25}}              
+                game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild(TradeTrack):InvokeServer(unpack(args))
+            end
+            wait(1)
+
                    if Sweet.Value < 26 and Sweet.Value > 0 then 
                        local args = {[1] = "AddTradeItem",[2] = {["Overwrite"] = true,["ItemType"] = "Tokens",
                        ["Name"] = Sweet.Name,
