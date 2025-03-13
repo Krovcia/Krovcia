@@ -630,9 +630,6 @@ EtherealTP = CFrame.new( 4926, 531, 8733, 0, 0, -1, 0, 1, 0, 1, 0, 0)
                task.wait()
             end 
         })
-    
-        local w = Library:Window("")
-        
         w:Button("RIGHT SHIFT", function()
             game:GetService("VirtualInputManager"):SendKeyEvent(true, 303, false, game)
             game:GetService("VirtualInputManager"):SendKeyEvent(false, 303, false, game)
