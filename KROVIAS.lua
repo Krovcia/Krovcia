@@ -1,5 +1,6 @@
-NamaPengumpul = {"cielkuro55", "Cleohypen", "Chokocute99", "Fiosye"}
-TargetShroom = 100
+NamaPengumpul = {"uniteand_freedom", "hinko8728", "FLAMAZ200904", "Fiosye"}
+
+TargetShroom = 7000
 LimitTrade = 400000 
 
 HargaStallRev = 1100
