@@ -1,5 +1,3 @@
-{
-  "NamaPengumpul": ["cielkuro55", "Cleohypen", "Chokocute99", "Fiosye"],
-  "HargaStallRev": 1100,
-  "HargaStallMax": 800
-} 
+NamaPengumpul: ["cielkuro55", "Cleohypen", "Chokocute99", "Fiosye"]
+HargaStallRev: 1100
+HargaStallMax: 800
