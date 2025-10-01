@@ -1,4 +1,6 @@
-NamaPengumpul = {"Zirfua", "Kyfiso", "Geozfu", "Dyfovl", "tumble2013", "juir_rius"}
+NamaPengumpul = {"Jyfvia", "Fygiaz", "Blivza"}
+
+
 
 
 
