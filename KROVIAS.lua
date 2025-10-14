@@ -1,6 +1,6 @@
-NamaPengumpul = {"Fhazfe", "Prafvi", "Voefiz", "Besfiv", "Zivevi", "Sezfia", "Khecfi"}
+NamaPengumpul = {"Fhazfe", "Prafvi", "Voefiz", "Besfiv", "Zivevi", "Sezfia", "Niovzo"}
 
-TargetShroom = 1000
+TargetShroom = 7000
 LimitTrade = 400000 
 
 HargaStallRev = 1100
