@@ -1,4 +1,4 @@
-NamaPengumpul = {"Jyfvia", "Gyviae", "Kyfiso"}
+NamaPengumpul = {"Gyviae", "Kyfiso"}
   
 
 
