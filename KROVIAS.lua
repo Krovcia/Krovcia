@@ -3,8 +3,8 @@ NamaPengumpul = {"Jeizvo", "Jeizva", "Hiejzo"}
 TargetShroom = 7000
 LimitTrade = 400000 
 
-HargaStallRev = 1150
-HargaStallMax = 850
+HargaStallRev = 1200
+HargaStallMax = 900
 HargaDeathToken = 5000
 
 AttackOrder5 = {1200, 1200, 1200, 1200} 
