@@ -1,4 +1,4 @@
-NamaPengumpul = {"Joecve", "Micvja", "Zyfiao"}
+NamaPengumpul = {"Joecve", "Yhefgi", "Zyfiao"}
   
 
 TargetShroom = 7000
