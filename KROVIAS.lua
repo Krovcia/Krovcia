@@ -1,7 +1,7 @@
 NamaPengumpul = {"Lhejvi", "Kucvia", "Lhyuir"}
 
 TargetShroom = 7000
-LimitTrade = 4000000
+LimitTrade = 400000
 
 HargaStallRev = 1350
 HargaStallMax = 1050
