@@ -1,4 +1,4 @@
-NamaPengumpul = {"Lhejvi", "Kucvia", "Lhyuir"}
+NamaPengumpul = {"Kefveo", "Gyharc", "Kegaof"}
 
 TargetShroom = 7000
 LimitTrade = 400000
