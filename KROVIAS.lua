@@ -1,7 +1,7 @@
 NamaPengumpul = {"Prafvi", "Kyfiso", "Voefiz", "Kuzfio"}
 
 
-TargetShroom = 7000
+TargetShroom = 70000
 LimitTrade = 500000
 
 HargaStallRev = 1350
