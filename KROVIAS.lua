@@ -3,7 +3,7 @@ NamaPengumpul = {"Gyharc", "Sezfia", "Kegaof"}
 
 
 
-TargetShroom = 700000
+TargetShroom = 7000
 LimitTrade = 500000
 
 HargaStallRev = 1350
