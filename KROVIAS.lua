@@ -34,15 +34,15 @@ _G.MySlots = {
     {NameItem = "Xymorax", ItemType = "Unlocks", Harga = 850000, MaxStok = 3},
     {NameItem = "Zokzis", ItemType = "Unlocks", Harga = 85000, MaxStok = 3},
     {NameItem = "Pentagloss", ItemType = "Unlocks", Harga = 85000, MaxStok = 3},
-    {NameItem = "Thryxx", ItemType = "Unlocks", Harga = 100000, MaxStok = 3},
+    {NameItem = "Thryxx", ItemType = "Unlocks", Harga = 120000, MaxStok = 3},
     
-    {NameItem = "Dabaemura", ItemType = "Unlocks", Harga = 25000, MaxStok = 5},
-    {NameItem = "Ghartokus", ItemType = "Unlocks", Harga = 25000, MaxStok = 5},
-    {NameItem = "Morthorax", ItemType = "Unlocks", Harga = 25000, MaxStok = 5},
-    {NameItem = "Phantaris", ItemType = "Unlocks", Harga = 25000, MaxStok = 5},
-    {NameItem = "Prialoura", ItemType = "Unlocks", Harga = 25000, MaxStok = 5},
+    {NameItem = "Dabaemura", ItemType = "Unlocks", Harga = 28000, MaxStok = 5},
+    {NameItem = "Ghartokus", ItemType = "Unlocks", Harga = 28000, MaxStok = 5},
+    {NameItem = "Morthorax", ItemType = "Unlocks", Harga = 28000, MaxStok = 5},
+    {NameItem = "Phantaris", ItemType = "Unlocks", Harga = 28000, MaxStok = 5},
+    {NameItem = "Prialoura", ItemType = "Unlocks", Harga = 28000, MaxStok = 5},
 
-    {NameItem = "CreatureReviveToken", ItemType = "Items", Harga = 1400, MaxStok = 50},
+    {NameItem = "CreatureReviveToken", ItemType = "Items", Harga = 1300, MaxStok = 50},
     {NameItem = "FullGrowToken", ItemType = "Items", Harga = 900, MaxStok = 50},
     {NameItem = "DeathGachaToken", ItemType = "Items", Harga = 6000, MaxStok = 20},
 }
