@@ -1,4 +1,4 @@
-_G.NamaPengumpul = {"Joecve", "Micvja", "3", "4", "5", "6"}
+_G.NamaPengumpul = {"Zyfiao", "Lozsce ", "3", "4", "5", "6"}
 _G.baseUrl = "https://script.google.com/macros/s/AKfycbwTs23_OVHs5cJ9xXDjgrZwZWlyzDGnoDwwt6fElnOwnlxK2povKxB5b7hc-qeVvZsu/exec"
 
 _G.TargetMush = 10000
@@ -7,12 +7,12 @@ _G.DeathPointTarget = 1200
 local ShadowPriceTarget = 1700
 local WardenPriceTarget = 1000
 _G.ShadowTarget = 2
-_G.WardenTarget = 5
+_G.WardenTarget = 4
 
 _G.Artifacttobuy = {
-    {Name = "Akanthos",   Type = "Shadow"},
+--  {Name = "Akanthos",   Type = "Shadow"},
 --  {Name = "Zakaiodrak", Type = "Shadow"},
-    {Name = "Veishyadar", Type = "Shadow"},
+--  {Name = "Veishyadar", Type = "Shadow"},
     {Name = "Thryxx", Type = "Shadow"},
 --    {Name = "Khilutatra", Type = "Shadow"},
 --    {Name = "Xymorax",    Type = "Shadow"},
