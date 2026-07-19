@@ -1,7 +1,7 @@
 _G.NamaPengumpul = {"Zyfiao", "Lozsce", "3", "4", "5", "6"}
 _G.baseUrl = "https://script.google.com/macros/s/AKfycbwTs23_OVHs5cJ9xXDjgrZwZWlyzDGnoDwwt6fElnOwnlxK2povKxB5b7hc-qeVvZsu/exec"
 
-_G.TargetMush = 100000
+_G.TargetMush = 1000000
 _G.DeathPointTarget = 1200
 
 local ShadowPriceTarget = 1700
@@ -42,8 +42,8 @@ _G.MySlots = {
     {NameItem = "Phantaris", ItemType = "Unlocks", Harga = 28000, MaxStok = 5},
     {NameItem = "Prialoura", ItemType = "Unlocks", Harga = 28000, MaxStok = 5},
 
-    {NameItem = "CreatureReviveToken", ItemType = "Items", Harga = 1300, MaxStok = 50},
-    {NameItem = "FullGrowToken", ItemType = "Items", Harga = 900, MaxStok = 50},
+    {NameItem = "CreatureReviveToken", ItemType = "Items", Harga = 1400, MaxStok = 50},
+    {NameItem = "FullGrowToken", ItemType = "Items", Harga = 800, MaxStok = 50},
     {NameItem = "DeathGachaToken", ItemType = "Items", Harga = 6000, MaxStok = 20},
 }
 
