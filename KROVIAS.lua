@@ -34,6 +34,7 @@ _G.MySlots = {
     {NameItem = "Xymorax", ItemType = "Unlocks", Harga = 800000, MaxStok = 3},
     {NameItem = "Zokzis", ItemType = "Unlocks", Harga = 80000, MaxStok = 3},
     {NameItem = "Pentagloss", ItemType = "Unlocks", Harga = 80000, MaxStok = 3},
+    {NameItem = "Akanthos", ItemType = "Unlocks", Harga = 80000, MaxStok = 3},
     {NameItem = "Thryxx", ItemType = "Unlocks", Harga = 95000, MaxStok = 3},
     
     {NameItem = "Dabaemura", ItemType = "Unlocks", Harga = 25000, MaxStok = 5},
