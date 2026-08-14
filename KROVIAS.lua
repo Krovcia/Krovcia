@@ -23,8 +23,8 @@ _G.Artifacttobuy = {
 --    {Name = "Dabaemura",  Type = "Warden"},
     {Name = "Ghartokus",  Type = "Warden"},
     {Name = "Morthorax",  Type = "Warden"},
---    {Name = "Phantaris",  Type = "Warden"},
---    {Name = "Prialoura",  Type = "Warden"}
+    {Name = "Phantaris",  Type = "Warden"},
+    {Name = "Prialoura",  Type = "Warden"}
 }
 
 _G.RestockCD = 10 
