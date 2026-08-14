@@ -1,4 +1,5 @@
-_G.NamaPengumpul = {"Dyfovl", "Sudyfa", "3", "4", "5", "6"}
+_G.NamaPengumpul = {"Khecfi", "Ryefia", "Yhefgi", "4", "5", "6"}
+
 _G.baseUrl = "https://script.google.com/macros/s/AKfycbwTs23_OVHs5cJ9xXDjgrZwZWlyzDGnoDwwt6fElnOwnlxK2povKxB5b7hc-qeVvZsu/exec"
 
 _G.TargetMush = 1000000
@@ -28,6 +29,8 @@ _G.Artifacttobuy = {
 
 _G.RestockCD = 10 
 _G.MySlots = {
+    {NameItem = "Geortharoc", ItemType = "Unlocks", Harga = 30000, MaxStok = 5},
+    {NameItem = "Eigion Warden", ItemType = "Unlocks", Harga = 30000, MaxStok = 5},
     {NameItem = "Khilutatra", ItemType = "Unlocks", Harga = 80000, MaxStok = 3},
     {NameItem = "Zakaiodrak", ItemType = "Unlocks", Harga = 80000, MaxStok = 3},
     {NameItem = "Veishyadar", ItemType = "Unlocks", Harga = 80000, MaxStok = 3},
