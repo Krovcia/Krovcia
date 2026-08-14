@@ -46,8 +46,8 @@ _G.MySlots = {
     {NameItem = "Phantaris", ItemType = "Unlocks", Harga = 25000, MaxStok = 5},
     {NameItem = "Prialoura", ItemType = "Unlocks", Harga = 25000, MaxStok = 5},
 
-    {NameItem = "CreatureReviveToken", ItemType = "Items", Harga = 1100, MaxStok = 50},
-    {NameItem = "FullGrowToken", ItemType = "Items", Harga = 550, MaxStok = 50},
+    {NameItem = "CreatureReviveToken", ItemType = "Items", Harga = 1300, MaxStok = 50},
+    {NameItem = "FullGrowToken", ItemType = "Items", Harga = 670, MaxStok = 50},
     {NameItem = "DeathGachaToken", ItemType = "Items", Harga = 2500, MaxStok = 20},
 }
 
