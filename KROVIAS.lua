@@ -1,5 +1,5 @@
-_G.NamaPengumpul = {"Khecfi", "Ryefia", "Yhefgi", "4", "5", "6"}
-
+_G.NamaPengumpul = {"Lozsce", "Micvja", "3", "4", "5", "6"}
+ 
 _G.baseUrl = "https://script.google.com/macros/s/AKfycbwTs23_OVHs5cJ9xXDjgrZwZWlyzDGnoDwwt6fElnOwnlxK2povKxB5b7hc-qeVvZsu/exec"
 
 _G.TargetMush = 1000000
@@ -17,8 +17,8 @@ _G.Artifacttobuy = {
     {Name = "Thryxx", Type = "Shadow"},
     {Name = "Khilutatra", Type = "Shadow"},
 --    {Name = "Xymorax",    Type = "Shadow"},
---    {Name = "Zokzis",     Type = "Shadow"},
---    {Name = "Pentagloss", Type = "Shadow"},
+    {Name = "Zokzis",     Type = "Shadow"},
+    {Name = "Pentagloss", Type = "Shadow"},
 
 --    {Name = "Dabaemura",  Type = "Warden"},
     {Name = "Ghartokus",  Type = "Warden"},
