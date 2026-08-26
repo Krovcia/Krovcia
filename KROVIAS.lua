@@ -4,7 +4,7 @@ _G.NamaPengumpul = {"Joecve", "Zyfiao", "3", "4", "5", "6"}
 _G.baseUrl = "https://script.google.com/macros/s/AKfycbwTs23_OVHs5cJ9xXDjgrZwZWlyzDGnoDwwt6fElnOwnlxK2povKxB5b7hc-qeVvZsu/exec"
 
 _G.TargetMush = 1000000
-_G.DeathPointTarget = 1200
+_G.DeathPointTarget = 750
 
 local ShadowPriceTarget = 1700
 local WardenPriceTarget = 1000
